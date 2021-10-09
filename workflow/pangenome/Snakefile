@@ -1,0 +1,10 @@
+
+configfile: "../../config/config.yaml"
+
+include: "rules/checkm.smk"
+
+samples, = glob_wildcards("../../input_folder/genomes/{sample}.fasta")
+
+rule all:
+	input:
+		expand(rules.checkm.output, sample = samples)

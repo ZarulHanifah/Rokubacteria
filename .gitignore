@@ -1,3 +1,7 @@
+# Zarul added
+input_folder/genomes
+results
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
