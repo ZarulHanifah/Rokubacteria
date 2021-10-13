@@ -1,6 +1,7 @@
 # Zarul added
 input_folder/genomes
 results
+.snakemake
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

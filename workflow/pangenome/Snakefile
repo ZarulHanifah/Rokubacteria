@@ -1,10 +1,11 @@
 
 configfile: "../../config/config.yaml"
 
-include: "rules/checkm.smk"
-
-samples, = glob_wildcards("../../input_folder/genomes/{sample}.fasta")
+include: "rules/download.smk"
+include: "rules/drep.smk"
+include: "rules/gtdbtk.smk"
+include: "rules/dram_microbial.smk"
 
 rule all:
 	input:
-		expand(rules.checkm.output, sample = samples)
+		rules.dram_microbial.output.distill
