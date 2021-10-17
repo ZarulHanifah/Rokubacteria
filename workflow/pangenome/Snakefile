@@ -8,4 +8,4 @@ include: "rules/dram_microbial.smk"
 
 rule all:
 	input:
-		rules.dram_microbial.output.distill
+		rules.dram_distill.output

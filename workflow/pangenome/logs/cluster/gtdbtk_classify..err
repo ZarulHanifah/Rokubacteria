@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Select jobs to execute...
+
+[Sun Oct 17 18:14:09 2021]
+rule gtdbtk_classify:
+    input: results/drep/dereplicated_genomes, /home/mzar0002/ie79_scratch/db/GTDBtk_db/release202
+    output: results/gtdbtk_out/classify/gtdbtk.bac120.summary.tsv
+    log: results/log/gtdbtk_classify/log.log
+    jobid: 0
+    threads: 24
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Activating conda environment: /projects/ie79/Sandra/Rokubacteria/workflow/pangenome/.snakemake/conda/4ead5879e0558d0046cab714df6f52cf
+[Sun Oct 17 19:53:15 2021]
+Finished job 0.
+1 of 1 steps (100%) done
