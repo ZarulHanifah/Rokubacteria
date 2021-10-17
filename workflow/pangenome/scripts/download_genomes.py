@@ -1,4 +1,4 @@
-#/usr/bin/env python
+#!/usr/bin/env python
 
 import sys
 import os
@@ -35,7 +35,6 @@ def get_assembly_summary(user_email, search_term, logger):
         handle = Entrez.esummary(db = "assembly", id = str_uid_list)
         record = Entrez.read(handle)
         summary = record["DocumentSummarySet"]["DocumentSummary"]
-        file_prefix = search_term.replace(" ", "_").lower()
         
         return summary
 
