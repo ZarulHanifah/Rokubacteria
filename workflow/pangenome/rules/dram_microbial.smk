@@ -35,12 +35,13 @@ rule dram_distill:
 		"results/dram/distill/product.html"
 	conda:
 		"../envs/dram.yaml"
-	threads: 32
+	threads: 2
 	log:
 		"results/log/dram_distill/log.log"
 	shell:
 		"""
 		distill_dir=$(dirname {output})
+		rm -rf $distill_dir
 
 		DRAM-setup.py import_config --config_loc {input.dram_config}
 		

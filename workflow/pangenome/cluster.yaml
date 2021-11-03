@@ -7,5 +7,5 @@ drep_genomes:
         etc         : "--mem=100G --time=1-00:00:00"
 gtdbtk_classify:
         etc         : "--mem=250G --time=1-00:00:00"
-dram_microbial:
-        etc         : "--mem=100G --time=1-00:00:00"
+dram_annotate:
+        etc         : "--mem=150G --time=2-00:00:00"

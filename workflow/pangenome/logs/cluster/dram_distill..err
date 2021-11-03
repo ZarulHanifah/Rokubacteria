@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Select jobs to execute...
+
+[Wed Nov  3 13:44:51 2021]
+rule dram_distill:
+    input: /projects/ie79/Sandra/Rokubacteria/config/dram.config, results/dram/annotation/annotations.tsv, results/dram/annotation/rrnas.tsv, results/dram/annotation/trnas.tsv
+    output: results/dram/distill/product.html
+    log: results/log/dram_distill/log.log
+    jobid: 0
+    threads: 2
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Activating conda environment: /projects/ie79/Sandra/Rokubacteria/workflow/pangenome/.snakemake/conda/31a35c43c06ee8a6e3a38e1d5d18f57d
+[Wed Nov  3 13:46:37 2021]
+Finished job 0.
+1 of 1 steps (100%) done
