@@ -1,5 +1,5 @@
 # Zarul added
-input_folder/genomes
+input_folder
 results
 .snakemake
 logs/cluster
