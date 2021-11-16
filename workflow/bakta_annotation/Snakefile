@@ -1,0 +1,13 @@
+
+configfile: "../../config/config.yaml"
+
+include: "rules/download.smk"
+include: "rules/drep.smk"
+include: "rules/gtdbtk.smk"
+include: "rules/dram_microbial.smk"
+
+ids, = glob_wildcards("{sample}.fasta")
+
+rule all:
+	input:
+		expand(rules.bakta_annotation.output, id = ids)
