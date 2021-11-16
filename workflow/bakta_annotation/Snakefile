@@ -1,9 +1,10 @@
 
-configfile: "../../config/config.yaml"
+configfile: "config.yaml"
 
 include: "rules/bakta.smk"
 
-ids, = glob_wildcards("{sample}.fasta")
+ids, = glob_wildcards("../../input_folder/genomes/{sample}.fasta")
+ids = sorted(ids)[:5]
 
 rule all:
 	input:
