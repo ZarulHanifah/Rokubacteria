@@ -7,4 +7,6 @@ gtdbtk_db:
   /home/mzar0002/ie79_scratch/db/GTDBtk_db/release202/
 dram_config:
   /projects/ie79/Sandra/Rokubacteria/config/dram.config
+bakta_db:
+  /fs03/ie79/db/bakta_db/db
 ...
