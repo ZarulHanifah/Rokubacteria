@@ -121,6 +121,16 @@ def give_summary(summary, outdir):
     final_df.columns = ["assembly accession", "assembly name", "species name",
         "isolate ID", "assembly release date", "submitter", "scaffold N50", 
         "assembly size", "number of contigs"]
+
+    # check assembly names are unique
+    dupls = df["assembly name"].value_counts() > 1
+    dupls = dupls[dupls].index.tolist()
+
+    for dupl in dupls:
+        for idx, ind  in enumerate(df.loc[df["assembly name"] == dupl, :].index.tolist()):
+            suffix = str.lower(chr(65 + idx))
+            df.loc[ind, "assembly name"]  = df.loc[ind, "assembly name"] + suffix
+        
     return final_df
             
 
