@@ -21,3 +21,6 @@ This analysis was meant as a practice. In the case if we are considering of publ
 
 ### Citations
 Becraft, E. D., Woyke, T., Jarett, J., Ivanova, N., Godoy-Vitorino, F., Poulton, N., Brown, J. M., Brown, J., Lau, M. C. Y., Onstott, T., Eisen, J. A., Moser, D., & Stepanauskas, R. (2017). Rokubacteria: Genomic Giants among the Uncultured Bacterial Phyla  . In Frontiers in Microbiology  (Vol. 8, p. 2264). https://www.frontiersin.org/article/10.3389/fmicb.2017.02264
+Crits-Christoph A, Diamond S, Butterfield CN, Thomas BC, Banfield JF. 2018.
+Novel soil bacteria possess diverse genes for secondary metabolite
+biosynthesis. Nature 558:440–444. DOI: 10.1038/s41586-018-0207-y.
