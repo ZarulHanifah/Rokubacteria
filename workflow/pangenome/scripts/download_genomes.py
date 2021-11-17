@@ -38,18 +38,50 @@ def get_assembly_summary(user_email, search_term, logger):
         
         return summary
 
-def download_assemblies(summary, final_df, outdir, logger):
-    """Download assemblies
+def download_summary(summary, outdir):
+    """ Summary to df format, prior to download
     """
-    failed_files = []
+    final_df = []
     for uid, item in enumerate(summary):
-         
-        name = final_df.iloc[uid, :]["assembly name"]
+        assembly_entry = []
+        
+        name = item["AssemblyName"]
         name = re.sub(" ", "_", name)
+        assembly_entry.append(name)
 
         url = item["FtpPath_GenBank"]
         label = os.path.basename(url)
         link = os.path.join(url, label + "_genomic.fna.gz")
+        assembly_entry.append(link)
+
+        final_df.append(assembly_entry)
+
+    final_df = pd.DataFrame(final_df)
+    final_df.columns = ["assembly name", "link"]
+
+    # check assembly names are unique
+    dupls = final_df["assembly name"].value_counts() > 1
+    dupls = dupls[dupls].index.tolist()
+
+    for dupl in dupls:
+        for idx, ind  in enumerate(final_df.loc[final_df["assembly name"] == dupl, :].index.tolist()):
+            suffix = str.lower(chr(65 + idx))
+            final_df.loc[ind, "assembly name"]  = final_df.loc[ind, "assembly name"] + suffix
+        
+    return final_df
+
+def download_assemblies(processed_df, outdir, logger):
+    """Download assemblies
+    """
+    failed_files = []
+    for uid, item in enumerate(processed_df.to_dict(orient = "records")):
+        # sys.stderr.write(item)
+        name = item["assembly name"]
+        name = re.sub(" ", "_", name)
+
+        url = item["link"]
+        # label = os.path.basename(url)
+        # link = os.path.join(url, label + "_genomic.fna.gz")
 
         filename = os.path.join(outdir, f"{name}.fasta")
 
@@ -57,13 +89,13 @@ def download_assemblies(summary, final_df, outdir, logger):
             if os.path.exists(filename) and os.path.getsize(filename) > 0:
                 logger.info(f"Assembly file {outdir}/{name}.fasta already exists")    
             else:
-                logger.info(f"Downloading assembly {name} to {outdir}/{name}.fasta from {link}")
-                zip_file = ul.urlopen(link)
+                logger.info(f"Downloading assembly {name} to {outdir}/{name}.fasta from {url}")
+                zip_file = ul.urlopen(url)
                
                 with open(filename, "w") as f:
                	    f.write(gzip.decompress(zip_file.read()).decode("UTF8"))
         except:
-            failed_files.append(link)
+            failed_files.append(url)
             os.remove(filename)
 
     # Trace failed files
@@ -132,7 +164,6 @@ def give_summary(summary, outdir):
             final_df.loc[ind, "assembly name"]  = df.loc[ind, "assembly name"] + suffix
         
     return final_df
-            
 
 def parse_args(args):
     """Argument parsers
@@ -172,9 +203,11 @@ def main():
     os.makedirs(args.outdir, exist_ok = True)
     
     summary = get_assembly_summary(args.email_address, args.taxa_name, logger)
+    processed_summary = download_summary(summary, args.outdir)
+    download_assemblies(processed_summary, args.outdir, logger)
+    
     df = give_summary(summary, args.outdir)
     df.to_csv(os.path.join(args.outdir, "assembly_summary.csv"), sep = "\t", index = False)
-    download_assemblies(summary, args.outdir, logger)
 
 if __name__ == "__main__":
     main()
