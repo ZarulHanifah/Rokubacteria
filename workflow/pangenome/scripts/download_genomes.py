@@ -161,12 +161,13 @@ def give_summary(summary, outdir):
     col_assem_size = []
     col_n_contigs = []
 
-    for item in summary:
+    for name in final_df["assembly name"].tolist():
         assembly_file = os.path.join(outdir, f"{name}.fasta")
+        print(assembly_file)
         assembly_size, number_of_contigs = get_assembly_features(assembly_file)
         col_assem_size.append(assembly_size)
         col_n_contigs.append(number_of_contigs)
-
+ 
     final_df["assembly_size"] = col_assem_size
     final_df["number_of_contigs"] = col_n_contigs
         
