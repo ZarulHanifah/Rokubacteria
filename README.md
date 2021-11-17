@@ -1,7 +1,7 @@
 # Rokubacteria
 
 ### Introduction
-Rokubacteria is a bacterial phylum that is prevalent in soil (Becraft et al., 2017).
+Rokubacteria is a bacterial phylum that is prevalent in soil (Becraft et al., 2017; Crits-Cristoph et al., 2018)
 
 ### Aim
 To better the understand the ecology and diversity of Rokubacteria, we attempt to apply metapangenomics and phylogenomics using publically-available metadata.
@@ -11,6 +11,10 @@ This analysis was meant as a practice. In the case if we are considering of publ
 
 ### TODO
 - Attempt genome annotation using bakta
+- Try alternative genetic codes
+	- Use prodigal for gene calling
+	- Using genetic code 4, 11 and 15
+	- Write script to count gene density: calculate sum length of genes over total contig length
 - Try detecting bacterial defense mechanisms
 	- Might not be the best on MAGs, but we'll see
 - Compare anvio-estimate-metabolism with DRAM output
