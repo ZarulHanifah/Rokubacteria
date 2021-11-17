@@ -132,36 +132,43 @@ def give_summary(summary, outdir):
     for uid, item in enumerate(summary):
         assembly_entry = []
         assembly_entry.append(item["AssemblyAccession"])
+        
         name = item["AssemblyName"]
         name = re.sub(" ", "_", name)
         assembly_entry.append(name)
-        assembly_entry.append(item["SpeciesName"])
-        assembly_entry.append(item["Biosource"]["Isolate"])
-        assembly_entry.append(item["AsmReleaseDate_GenBank"])
-        assembly_entry.append(item["SubmitterOrganization"])
-        assembly_entry.append(item["ScaffoldN50"])
-
-        assembly_file = os.path.join(outdir, f"{name}.fasta")
-        assembly_size, number_of_contigs = get_assembly_features(assembly_file)
-        assembly_entry.append(assembly_size)
-        assembly_entry.append(number_of_contigs)
-
+        
         final_df.append(assembly_entry)
 
     final_df = pd.DataFrame(final_df)
-    
-    final_df.columns = ["assembly accession", "assembly name", "species name",
-        "isolate ID", "assembly release date", "submitter", "scaffold N50", 
-        "assembly size", "number of contigs"]
+    final_df.columns = ["assembly accession", "assembly name"]
 
     # check assembly names are unique
-    dupls = df["assembly name"].value_counts() > 1
+    dupls = final_df["assembly name"].value_counts() > 1
     dupls = dupls[dupls].index.tolist()
 
     for dupl in dupls:
-        for idx, ind  in enumerate(df.loc[df["assembly name"] == dupl, :].index.tolist()):
+        for idx, ind  in enumerate(final_df.loc[final_df["assembly name"] == dupl, :].index.tolist()):
             suffix = str.lower(chr(65 + idx))
-            final_df.loc[ind, "assembly name"]  = df.loc[ind, "assembly name"] + suffix
+            final_df.loc[ind, "assembly name"] = final_df.loc[ind, "assembly name"] + suffix
+
+
+    final_df["species name"] = [item["SpeciesName"] for item in summary]
+    final_df["isolate ID "] = [item["Biosource"]["Isolate"] for item in summary]
+    final_df["assembly release date"] = [item["AsmReleaseDate_GenBank"] for item in summary]
+    final_df["submitter"] = [item["SubmitterOrganization"] for item in summary]
+    final_df["scaffold N50"] = [item["ScaffoldN50"] for item in summary]
+
+    col_assem_size = []
+    col_n_contigs = []
+
+    for item in summary:
+        assembly_file = os.path.join(outdir, f"{name}.fasta")
+        assembly_size, number_of_contigs = get_assembly_features(assembly_file)
+        col_assem_size.append(assembly_size)
+        col_n_contigs.append(number_of_contigs)
+
+    final_df["assembly_size"] = col_assem_size
+    final_df["number_of_contigs"] = col_n_contigs
         
     return final_df
 
