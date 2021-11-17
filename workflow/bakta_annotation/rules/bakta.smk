@@ -16,6 +16,7 @@ rule bakta_annotation:
 		bakta --db {input.db} \
 			--output $outdir \
 			--prefix {wildcards.id} \
+			--threads {threads} \
 			--verbose \
 			{input.fasta} 2> {log}
 		"""
