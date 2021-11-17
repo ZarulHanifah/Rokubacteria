@@ -38,13 +38,13 @@ def get_assembly_summary(user_email, search_term, logger):
         
         return summary
 
-def download_assemblies(summary, outdir, logger):
+def download_assemblies(summary, final_df, outdir, logger):
     """Download assemblies
     """
     failed_files = []
     for uid, item in enumerate(summary):
          
-        name = item["AssemblyName"]
+        name = final_df.iloc[uid, :]["assembly name"]
         name = re.sub(" ", "_", name)
 
         url = item["FtpPath_GenBank"]
@@ -129,7 +129,7 @@ def give_summary(summary, outdir):
     for dupl in dupls:
         for idx, ind  in enumerate(df.loc[df["assembly name"] == dupl, :].index.tolist()):
             suffix = str.lower(chr(65 + idx))
-            df.loc[ind, "assembly name"]  = df.loc[ind, "assembly name"] + suffix
+            final_df.loc[ind, "assembly name"]  = df.loc[ind, "assembly name"] + suffix
         
     return final_df
             
@@ -172,10 +172,9 @@ def main():
     os.makedirs(args.outdir, exist_ok = True)
     
     summary = get_assembly_summary(args.email_address, args.taxa_name, logger)
-    download_assemblies(summary, args.outdir, logger)
     df = give_summary(summary, args.outdir)
-
     df.to_csv(os.path.join(args.outdir, "assembly_summary.csv"), sep = "\t", index = False)
+    download_assemblies(summary, args.outdir, logger)
 
 if __name__ == "__main__":
     main()
