@@ -7,7 +7,7 @@ Rokubacteria is a bacterial phylum that is prevalent in soil (Becraft et al., 20
 To better the understand the ecology and diversity of Rokubacteria, we attempt to apply metapangenomics and phylogenomics using publically-available metadata.
 
 ### Disclaimer
-This analysis was meant as a practice. In the case if we are considering of publishing results using these data, we will inform the data generators beforehand.
+This analysis was meant as a practice. In the case if we are considering of publishing results using these data, we will inform the data providers beforehand.
 
 ### TODO
 - Attempt genome annotation using bakta
