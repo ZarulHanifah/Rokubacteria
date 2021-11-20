@@ -7,6 +7,8 @@ Genomes and metadata files downloads are done using scripts in `src` folder (gen
 
 Some metadata information will probably have to be obtained manually (such as location, habitat, publication, etc etc).
 
+![Overall workflow](src/graph_rulegraph.png)
+
 ### Streamlined workflow
 After compilation of all genome files, then the workflow will proceed with:
 - Dereplication using `drep`
