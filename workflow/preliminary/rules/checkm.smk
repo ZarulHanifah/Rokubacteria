@@ -37,6 +37,5 @@ rule compile_checkm_summary:
         os.path.join(results_path, "summary_checkm.tsv")
     shell:
         """
-        indir=$(dirname {input[0]})
-        python src/extract_checkm.py -i $indir > {output}
+        python src/extract_checkm.py -i {input} -o {output}
         """

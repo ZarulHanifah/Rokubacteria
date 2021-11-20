@@ -3,43 +3,74 @@ import os
 import pandas as pd
 import re
 import json
+import argparse
+import logging
 
-def extract_checkm_stats(file):
+def read_individual_checkm(checkm_tsv):
+    """ Read individual checkm bin summary
+    """
+    with open(checkm_tsv, "r") as f:
+        output = f.read()
+
+    output = re.sub("\n", "", output)
+    output = output.split("\t")
+    output[1] = re.sub("'", "\"", output[1])
+    output[1] = json.loads(output[1])
     
-    with open(file, "r") as handle:
-        f = handle.read()
-        
-    f = re.sub(".*{", "{", f)
-    f = re.sub("'", "\"", f)
-    f = json.loads(f)
+    return output[0], output[1]
+
+def checkms_to_df(checkms):
+    """ Read all checkm summaries
+    Output into pandas dataframe
+    """
+    df = {}
     
-    completeness = f["Completeness"]
-    contamination = f["Contamination"]
-    gc = f["GC"]
-    genome_size = f["Genome size"]
-    coding_density = f["Coding density"]
+    for checkm in checkms:
+        key, value = read_individual_checkm(checkm)
+        df[key] = value
     
-    value = [gc, genome_size, coding_density, completeness, contamination]
-    return value
+    df = pd.DataFrame.from_dict(df, orient = "index")
 
+    df.index.name = "id"
+    return df
 
-df = []
+def parse_args(args):
+    """Argument parsers
+    """
+    parser = argparse.ArgumentParser(description = "Summarise checkm outputs",
+        usage = "python extract_checkm.py -i file1.tsv file2.tsv [...]")
+    parser.add_argument("-i", "--input_checkms",
+        required = True,
+        nargs = "+",
+        dest = "checkms",
+        help = "List of checkm files")
+    parser.add_argument("-o", "--output",
+        default = None,
+        dest = "output",
+        help = "Output summary")
+    if not args:
+        parser.print_help(sys.stderr)
+        sys.exit()
+    return parser.parse_args(args)
 
-for key in keys:
-    checkm_file = "results/checkm/Bacteria_{}/storage/bin_stats_ext.tsv".format(key)
-    
-    answer = [key] + \
-        extract_checkm_stats(checkm_file)
-    
-    df.append(answer)
+def main():
+    """Main function
+    """
+    args = sys.argv[1:]
+    args = parse_args(args)
 
-df = pd.DataFrame(df)
-df.columns = ["id", "GC", "Genome_Size", "Coding_Density", "Bacteria_Completeness", "Bacteria_Contamination"]
-# df.set_index("Accession", inplace = True)
+    logger = logging.getLogger("Parse checkm files")
+    logger.setLevel(logging.INFO)
+    sh = logging.StreamHandler()
+    sh.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+    logger.addHandler(sh)
 
-df = metadata.merge(df, left_on = "id", right_on = "id")
+    df = checkms_to_df(args.checkms)
 
-df.sort_values(["Bacteria_Completeness", "Bacteria_Contamination"],
-    ascending = [False, True],
-    inplace = True)
-df.to_csv(sys.stdout, sep = "\t", index = False)
+    if args.output is not None:
+        df.to_csv(args.output)
+    else:
+        df.to_csv(sys.stdout)
+
+if __name__ == "__main__":
+    main()
