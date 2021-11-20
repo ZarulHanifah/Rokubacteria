@@ -1,0 +1,8 @@
+name:
+  drep
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - drep
+  - checkm-genome

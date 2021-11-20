@@ -1,0 +1,10 @@
+###
+taxa_name:
+  Rokubacteria
+email_address:
+  muhammad.zarulhanifah@monash.edu
+gtdbtk_db:
+  /home/mzar0002/ie79_scratch/db/GTDBtk_db/release202/
+dram_config:
+  src/dram.config
+...

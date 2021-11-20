@@ -1,0 +1,13 @@
+
+configfile: "config/config.yaml"
+
+include: "rules/checkm.smk"
+include: "rules/drep.smk"
+include: "rules/gtdbtk.smk"
+
+ids = glob_wildcards("input_folder/genomes/{id}.fasta")
+
+rule all:
+	input:
+		expand(rules.checkm.output, id = ids),
+		rules.gtdbtk_classify.output
