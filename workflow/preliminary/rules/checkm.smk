@@ -2,6 +2,7 @@ rule checkm_genome:
     input:
         "input_folder/genomes/{id}.fasta"
     output:
+        tmpout = temp("results/.tmp/checkm/{id}/{id}.fasta"),
         out1 = "results/checkm/Bacteria_{id}/storage/bin_stats_ext.tsv"
     conda:
         "../envs/drep.yaml"
@@ -19,8 +20,8 @@ rule checkm_genome:
         """
         cp {input} {output.tmpout}
         
-        tmpdir=$(dirname {input})
-        outdir=$(dirname $(dirname {output}))
+        tmpdir=$(dirname {output.tmpout})
+        outdir=$(dirname $(dirname {output.out1}))
 
         checkm taxonomy_wf -t {threads} -x {params.ext} \
          {params.rank} \

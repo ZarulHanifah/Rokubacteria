@@ -8,6 +8,8 @@ rule drep_genomes:
 	threads: 16
 	log:
 		"results/log/drep_genomes/log.log"
+	message:
+        "Dereplicating genomes"
 	shell:
 		"""
 		outdir=$(dirname {output})
