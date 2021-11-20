@@ -1,6 +1,6 @@
 rule drep_genomes:
 	input:
-		"input_folder/genomes/{id}.fasta"
+		expand("input_folder/genomes/{id}.fasta", id = ids)
 	output:
 		directory("results/drep/dereplicated_genomes")
 	conda:
