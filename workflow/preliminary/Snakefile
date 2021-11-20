@@ -1,4 +1,10 @@
 
+import sys
+import os
+
+if not os.path.exists("logs/cluster"):
+	os.makedirs("logs/cluster")
+
 configfile: "config/config.yaml"
 
 ids, = glob_wildcards("input_folder/genomes/{id}.fasta")
