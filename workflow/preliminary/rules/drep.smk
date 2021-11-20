@@ -2,12 +2,12 @@ rule drep_genomes:
     input:
         expand("input_folder/genomes/{id}.fasta", id = ids)
     output:
-        directory("results/drep/dereplicated_genomes")
+        directory(os.path.join(results_path, "drep/dereplicated_genomes"))
     conda:
         "../envs/drep.yaml"
     threads: 16
     log:
-        "results/log/drep_genomes/log.log"
+        os.path.join(results_path, "log/drep_genomes/log.log")
     message:
         "Dereplicating genomes"
     shell:

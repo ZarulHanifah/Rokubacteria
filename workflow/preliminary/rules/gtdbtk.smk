@@ -3,14 +3,16 @@ rule gtdbtk_classify:
         drep = rules.drep_genomes.output,
         gtdbtk_db = config["gtdbtk_db"]
     output:
-        "results/gtdbtk_out/classify/gtdbtk.bac120.summary.tsv"
+        os.path.join(results_path, "gtdbtk_out/classify/gtdbtk.bac120.summary.tsv")
     conda:
         "../envs/gtdbtk.yaml"
     threads: 24
     log:
-        "results/log/gtdbtk_classify/log.log"
+        os.path.join(results_path, "log/gtdbtk_classify/log.log")
     params:
         ext = "fasta"
+    message:
+        "Assigning GTDB taxonomy"
     shell:
         """
         export GTDBTK_DATA_PATH={input.gtdbtk_db}

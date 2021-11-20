@@ -2,8 +2,8 @@ rule checkm_genome:
     input:
         "input_folder/genomes/{id}.fasta"
     output:
-        tmpout = temp("results/.tmp/checkm/{id}/{id}.fasta"),
-        out1 = "results/checkm/Bacteria_{id}/storage/bin_stats_ext.tsv"
+        tmpout = temp(os.path.join(results_path, ".tmp/checkm/{id}/{id}.fasta")),
+        out1 = os.path.join(results_path, "checkm/Bacteria_{id}/storage/bin_stats_ext.tsv")
     conda:
         "../envs/drep.yaml"
     params:
@@ -13,7 +13,7 @@ rule checkm_genome:
         taxon = "Bacteria",
     threads: 2
     log:
-        "results/log/checkm/{id}.log"
+        os.path.join(results_path, "log/checkm/{id}.log")
     message:
         "Running checkm on sample {wildcards.id}"
     shell:
@@ -34,7 +34,7 @@ rule compile_checkm_summary:
     input:
         expand(rules.checkm_genome.output.out1, id = ids)
     output:
-        "results/summary_checkm.tsv"
+        os.path.join(results_path, "summary_checkm.tsv")
     shell:
         """
         indir=$(dirname {input[0]})
