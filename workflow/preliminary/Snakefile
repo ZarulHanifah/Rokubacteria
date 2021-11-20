@@ -6,6 +6,7 @@ if not os.path.exists("logs/cluster"):
 	os.makedirs("logs/cluster")
 
 configfile: "config/config.yaml"
+results_path = config["results_path"]
 
 ids, = glob_wildcards("input_folder/genomes/{id}.fasta")
 
