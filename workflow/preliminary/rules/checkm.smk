@@ -29,3 +29,14 @@ rule checkm_genome:
          $tmpdir \
          $outdir &> {log}
         """
+
+rule compile_checkm_summary:
+    input:
+        expand(rules.checkm_genome.output.out1, id = ids)
+    output:
+        "results/summary_checkm.tsv"
+    shell:
+        """
+        indir=$(dirname {input[0]})
+        python src/extract_checkm.py -i $indir > {output}
+        """
