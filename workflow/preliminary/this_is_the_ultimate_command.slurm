@@ -1,4 +1,4 @@
-snakemake -j 5 -k --use-conda \
+snakemake -j 30 -k --use-conda \
     --cluster-config config/cluster.yaml \
     --conda-frontend mamba \
     --cluster "sbatch \

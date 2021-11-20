@@ -22,9 +22,6 @@ def extract_checkm_stats(file):
     value = [gc, genome_size, coding_density, completeness, contamination]
     return value
 
-metadata = pd.read_csv(sys.argv[1], sep = "\t")
-
-keys = metadata["id"].tolist()
 
 df = []
 
