@@ -1,5 +1,5 @@
 # Zarul added
-input_folder/genomes
+*genomes/
 results
 .snakemake
 *logs
