@@ -34,7 +34,7 @@ rule compile_checkm_summary:
     input:
         expand(rules.checkm_genome.output.out1, id = ids)
     output:
-        os.path.join(results_path, "summary_checkm.tsv")
+        os.path.join(results_path, "summary_checkm.csv")
     shell:
         """
         python src/extract_checkm.py -i {input} -o {output}
