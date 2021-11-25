@@ -17,4 +17,5 @@ include: "rules/gtdbtk.smk"
 rule all:
 	input:
 		rules.compile_checkm_summary.output,
+		rules.drep_genomes.output,
 		rules.gtdbtk_classify.output
