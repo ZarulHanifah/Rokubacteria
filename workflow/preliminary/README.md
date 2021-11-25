@@ -26,3 +26,6 @@ After compilation of all genome files, then the workflow will proceed with:
 ### Finally
 - Finalise input genomes and metadata
 - Subsequent workflows will utilise either dereplicated set or all genomic set, depending on research question
+
+### Notes
+- To ensure smooth downstream analyses, all genome files have a ".fasta" suffix, and will the filenames will need to begin with an alphabet, and NO SYMBOLS

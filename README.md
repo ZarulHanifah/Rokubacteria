@@ -45,6 +45,8 @@ Becraft, E. D., Woyke, T., Jarett, J., Ivanova, N., Godoy-Vitorino, F., Poulton,
 
 Crits-Christoph A, Diamond S, Butterfield CN, Thomas BC, Banfield JF. 2018.
 Novel soil bacteria possess diverse genes for secondary metabolite
-biosynthesis. Nature 558:440–444. DOI: 10.1038/s41586-018-0207-y.
+biosynthesis. Nature 558:440–444. https://10.1038/s41586-018-0207-y
 
 Hug, L.A., Thomas, B.C., Sharon, I., Brown, C.T., Sharma, R., Hettich, R.L., Wilkins, M.J., Williams, K.H., Singh, A. and Banfield, J.F. (2016), N- and C-cycling organisms in the subsurface. Environ Microbiol, 18: 159-173. https://doi.org/10.1111/1462-2920.12930
+
+Zhou Z, Liu Y, Xu W, Pan J, Luo ZH, Li M. Genome- and Community-Level Interaction Insights into Carbon Utilization and Element Cycling Functions of Hydrothermarchaeota in Hydrothermal Sediment. mSystems. 2020 Jan 7;5(1):e00795-19. https://10.1128/mSystems.00795-19
