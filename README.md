@@ -1,7 +1,14 @@
-# Rokubacteria
+# Rokubacteria (六)
 
 ### Introduction
-Rokubacteria is a bacterial phylum that is prevalent in soil (Becraft et al., 2017; Crits-Cristoph et al., 2018)
+Rokubacteria is a bacterial phylum that is found in diverse environment such as:
+- Groundwater (Hug et al., 2015)
+- Soil (Becraft et al., 2017; Crits-Cristoph et al., 2018)
+- Hydrothermal sediments (Zhou et al., 2020)
+
+It's hallmark metabolic activities include:
+- Secondary metabolite biosynthesis
+- Nitrite-dependent denitrification coupled to methanotrophy (check)
 
 ### Aim
 To better the understand the ecology and diversity of Rokubacteria, we attempt to apply metapangenomics and phylogenomics using publically-available metadata.
@@ -39,3 +46,5 @@ Becraft, E. D., Woyke, T., Jarett, J., Ivanova, N., Godoy-Vitorino, F., Poulton,
 Crits-Christoph A, Diamond S, Butterfield CN, Thomas BC, Banfield JF. 2018.
 Novel soil bacteria possess diverse genes for secondary metabolite
 biosynthesis. Nature 558:440–444. DOI: 10.1038/s41586-018-0207-y.
+
+Hug, L.A., Thomas, B.C., Sharon, I., Brown, C.T., Sharma, R., Hettich, R.L., Wilkins, M.J., Williams, K.H., Singh, A. and Banfield, J.F. (2016), N- and C-cycling organisms in the subsurface. Environ Microbiol, 18: 159-173. https://doi.org/10.1111/1462-2920.12930
