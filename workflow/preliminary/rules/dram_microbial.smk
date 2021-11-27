@@ -1,6 +1,6 @@
 rule dram_annotate:
 	input:
-		bins = rules.drep_genomes.output,
+		bins = expand("input_folder/genomes/{id}.fasta", id = ids),
 		dram_config = config["dram_config"],
 		gtdb_taxonomy = rules.gtdbtk_classify.output
 	output:
@@ -12,14 +12,18 @@ rule dram_annotate:
 	threads: 32
 	log:
 		"results/log/dram_annotate/log.log"
+	message:
+		"DRAM annotation"
 	shell:
 		"""
 		annot_dir=$(dirname {output.annot})
+        indir=$(dirname {input.bins[0]})
+
 		rm -rf $annot_dir
 
 		DRAM-setup.py import_config --config_loc {input.dram_config}
 		
-		DRAM.py annotate -i '{input.bins}/*fasta' \
+		DRAM.py annotate -i '$indir/*fasta' \
 				-o $annot_dir \
 				--gtdb_taxonomy {input.gtdb_taxonomy} \
 				--verbose &> {log}
@@ -38,6 +42,8 @@ rule dram_distill:
 	threads: 2
 	log:
 		"results/log/dram_distill/log.log"
+	message:
+		"Distilling DRAM output"
 	shell:
 		"""
 		distill_dir=$(dirname {output})
