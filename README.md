@@ -6,12 +6,8 @@ Rokubacteria is a bacterial phylum that is found in diverse environment such as:
 - Soil (Becraft et al., 2017; Crits-Cristoph et al., 2018)
 - Hydrothermal sediments (Zhou et al., 2020)
 
-It's hallmark metabolic activities include:
-- Secondary metabolite biosynthesis
-- Nitrite-dependent denitrification coupled to methanotrophy (check)
-
 ### Aim
-To better the understand the ecology and diversity of Rokubacteria, we attempt to apply metapangenomics and phylogenomics using publically-available metadata.
+To better understand the ecology and diversity of Rokubacteria, we attempt to apply metapangenomics and phylogenomics using publically-available metadata.
 
 ### Disclaimer
 This analysis was meant as a practice. In the case if we are considering of publishing results using these data, we will inform the data providers beforehand.
