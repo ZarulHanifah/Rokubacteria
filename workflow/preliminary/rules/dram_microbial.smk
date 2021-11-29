@@ -23,7 +23,7 @@ rule dram_annotate:
 
 		DRAM-setup.py import_config --config_loc {input.dram_config}
 		
-		DRAM.py annotate -i '$indir/*fasta' \
+		DRAM.py annotate -i $indir'/*fasta' \
 				-o $annot_dir \
 				--gtdb_taxonomy {input.gtdb_taxonomy} \
 				--verbose &> {log}
