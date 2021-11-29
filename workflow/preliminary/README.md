@@ -22,6 +22,8 @@ After compilation of all genome files, then the workflow will proceed with:
 	- This applies to all genomes
 	- Completion and contamination results are used later as metadata
 	- Only medium/high quality MAGs/SAGs are to be considered for other subsequent workflows
+- Find general metabolic processes being carried out
+	- Applies to all genomes
 
 ### Finally
 - Finalise input genomes and metadata
