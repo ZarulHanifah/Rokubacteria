@@ -1,0 +1,10 @@
+###
+taxa_name:
+  Rokubacteria
+email_address:
+  muhammad.zarulhanifah@monash.edu
+results_path:
+  /fs03/ie79/zarul/Rokubacteria/phylogenome/results
+input_genome_dir_path:
+  ../../input_folder/genomes
+...

@@ -1,0 +1,8 @@
+name: gtotree
+channels:
+  - bioconda
+  - conda-forge
+  - astrobiomike
+dependencies:
+  - gtotree
+  - iqtree
