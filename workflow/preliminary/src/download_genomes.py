@@ -7,6 +7,8 @@ import logging
 import argparse
 import pandas as pd
 import gzip
+from tqdm import tqdm
+from tqdm.contrib.logging import logging_redirect_tqdm
 import urllib.request as ul
 from Bio import Entrez
 from Bio.SeqIO.FastaIO import SimpleFastaParser
@@ -74,29 +76,28 @@ def download_assemblies(processed_df, outdir, logger):
     """Download assemblies
     """
     failed_files = []
-    for uid, item in enumerate(processed_df.to_dict(orient = "records")):
-        # sys.stderr.write(item)
-        name = item["assembly name"]
-        name = re.sub(" ", "_", name)
 
-        url = item["link"]
-        # label = os.path.basename(url)
-        # link = os.path.join(url, label + "_genomic.fna.gz")
-
-        filename = os.path.join(outdir, f"{name}.fasta")
-
-        try:
-            if os.path.exists(filename) and os.path.getsize(filename) > 0:
-                logger.info(f"Assembly file {outdir}/{name}.fasta already exists")    
-            else:
-                logger.info(f"Downloading assembly {name} to {outdir}/{name}.fasta from {url}")
-                zip_file = ul.urlopen(url)
-               
-                with open(filename, "w") as f:
-               	    f.write(gzip.decompress(zip_file.read()).decode("UTF8"))
-        except:
-            failed_files.append(url)
-            os.remove(filename)
+    with logging_redirect_tqdm():
+        for uid, item in enumerate(tqdm(processed_df.to_dict(orient = "records"))):
+            name = item["assembly name"]
+            name = re.sub(" ", "_", name)
+    
+            url = item["link"]
+    
+            filename = os.path.join(outdir, f"{name}.fasta")
+    
+            try:
+                if os.path.exists(filename) and os.path.getsize(filename) > 0:
+                    logger.info(f"Assembly file {outdir}/{name}.fasta already exists")    
+                else:
+                    logger.info(f"Downloading assembly {name} to {outdir}/{name}.fasta from {url}")
+                    zip_file = ul.urlopen(url)
+                   
+                    with open(filename, "w") as f:
+                   	    f.write(gzip.decompress(zip_file.read()).decode("UTF8"))
+            except:
+                failed_files.append(url)
+                os.remove(filename)
 
     # Trace failed files
     if len(failed_files) > 0:
@@ -202,12 +203,13 @@ def main():
     args = sys.argv[1:]
     args = parse_args(args)
 
-    logger = logging.getLogger("download genomes")
-    logger.setLevel(logging.INFO)
-    sh = logging.StreamHandler()
-    sh.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
-    logger.addHandler(sh)
+    logging.basicConfig(level=logging.INFO)
 
+    logger = logging.getLogger("download genomes")
+        # sh = logging.StreamHandler()
+        # sh.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+        # logger.addHandler(sh)
+    
     os.makedirs(args.outdir, exist_ok = True)
     
     summary = get_assembly_summary(args.email_address, args.taxa_name, logger)
