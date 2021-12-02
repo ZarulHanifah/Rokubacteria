@@ -7,6 +7,7 @@ import logging
 import argparse
 import pandas as pd
 import gzip
+from bs4 import BeautifulSoup
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 import urllib.request as ul
@@ -16,6 +17,8 @@ from Bio.SeqIO.FastaIO import SimpleFastaParser
 __author__ = "Fong Yoke"
 __license__ = "MIT"
 __email__ = "bldmyoke@gmail.com"
+
+genome_cutoff_size = 15000000
 
 def search_assembly_db(user_email, search_term, max_retrieval="1000"):
         """Download assembly db from  NCBI
@@ -40,23 +43,31 @@ def get_assembly_summary(user_email, search_term, logger):
         
         return summary
 
+def genome_size_normal(item, max_size = 15000000):
+    soup = BeautifulSoup(item["Meta"], "html.parser")
+    genome_size = soup.find_all("stat", attrs = {"category": "ungapped_length"})[0].text
+    genome_size = int(genome_size)
+
+    return True if genome_size < max_size else False
+
 def download_summary(summary, outdir):
     """ Summary to df format, prior to download
     """
     final_df = []
     for uid, item in enumerate(summary):
-        assembly_entry = []
-        
-        name = item["AssemblyName"]
-        name = re.sub(" ", "_", name)
-        assembly_entry.append(name)
+        if genome_size_normal(item):
+            assembly_entry = []
+            
+            name = item["AssemblyName"]
+            name = re.sub(" ", "_", name)
+            assembly_entry.append(name)
 
-        url = item["FtpPath_GenBank"]
-        label = os.path.basename(url)
-        link = os.path.join(url, label + "_genomic.fna.gz")
-        assembly_entry.append(link)
+            url = item["FtpPath_GenBank"]
+            label = os.path.basename(url)
+            link = os.path.join(url, label + "_genomic.fna.gz")
+            assembly_entry.append(link)
 
-        final_df.append(assembly_entry)
+            final_df.append(assembly_entry)
 
     final_df = pd.DataFrame(final_df)
     final_df.columns = ["assembly name", "link"]
@@ -105,19 +116,18 @@ def download_assemblies(processed_df, outdir, logger):
         for failed in failed_files:
             print(failed)
 
-def get_assembly_features(assembly_file):
-    """Get assembly size and number of contigs
-    """
-    assembly_size = 0
-    number_of_contigs = 0
+def get_assembly_size(item):
+    soup = BeautifulSoup(item["Meta"], "html.parser")
+    assembly_size = soup.find_all("stat", attrs = {"category": "ungapped_length"})[0].text
+    assembly_size = int(assembly_size)
+    return assembly_size
 
-    with open(assembly_file, "r") as f:
-        for title, seq in SimpleFastaParser(f):
-            number_of_contigs += 1
-            assembly_size += len(seq)
+def get_number_of_contigs(item):
+    soup = BeautifulSoup(item["Meta"], "html.parser")
+    number_of_contigs = soup.find_all("stat", attrs = {"category": "contig_count"})[0].text
+    number_of_contigs = int(number_of_contigs)
+    return number_of_contigs
 
-    return assembly_size, number_of_contigs
-        
 def give_summary(summary, outdir):
     """ Create assembly metadata
     The metadata are:
@@ -152,26 +162,16 @@ def give_summary(summary, outdir):
             suffix = str.lower(chr(65 + idx))
             final_df.loc[ind, "assembly name"] = final_df.loc[ind, "assembly name"] + suffix
 
-
     final_df["species name"] = [item["SpeciesName"] for item in summary]
     final_df["isolate ID "] = [item["Biosource"]["Isolate"] for item in summary]
     final_df["assembly release date"] = [item["AsmReleaseDate_GenBank"] for item in summary]
     final_df["submitter"] = [item["SubmitterOrganization"] for item in summary]
     final_df["scaffold N50"] = [item["ScaffoldN50"] for item in summary]
 
-    col_assem_size = []
-    col_n_contigs = []
-
-    for name in final_df["assembly name"].tolist():
-        assembly_file = os.path.join(outdir, f"{name}.fasta")
-        print(assembly_file)
-        assembly_size, number_of_contigs = get_assembly_features(assembly_file)
-        col_assem_size.append(assembly_size)
-        col_n_contigs.append(number_of_contigs)
+    final_df["assembly_size"] = [get_assembly_size(item) for item in summary]
+    final_df["number_of_contigs"] = [get_number_of_contigs(item) for item in summary]
  
-    final_df["assembly_size"] = col_assem_size
-    final_df["number_of_contigs"] = col_n_contigs
-        
+    final_df = final_df.loc[final_df["assembly_size"] <= genome_cutoff_size, :]
     return final_df
 
 def parse_args(args):
