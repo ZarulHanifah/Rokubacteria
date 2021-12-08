@@ -102,10 +102,13 @@ def download_assemblies(processed_df, outdir, logger):
                     logger.info(f"Assembly file {outdir}/{name}.fasta already exists")    
                 else:
                     logger.info(f"Downloading assembly {name} to {outdir}/{name}.fasta from {url}")
-                    zip_file = ul.urlopen(url)
-                   
-                    with open(filename, "w") as f:
-                   	    f.write(gzip.decompress(zip_file.read()).decode("UTF8"))
+                    while not os.path.exists(filename) :
+                        zip_file = ul.urlopen(url)
+                       
+                        with open(filename, "w") as f:
+                            while os.stat(filename).st_size == 0:
+                       	        f.write(gzip.decompress(zip_file.read()).decode("UTF8"))
+                        pass
             except:
                 failed_files.append(url)
                 os.remove(filename)
