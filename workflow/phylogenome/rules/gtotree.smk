@@ -3,8 +3,7 @@ rule build_alignment:
 		expand("../../input_folder/genomes/{id}.fasta", id = ids)
 	output:
 		tmp_list = os.path.join(results_path, ".tmp/genome_list.txt"),
-		aln = os.path.join(results_path, "gtotree_alignment/Aligned_SCGs_mod_names.faa"),
-		tre = os.path.join(results_path, "gtotree_alignment/iqtree_out.contree")
+		aln = os.path.join(results_path, "gtotree_alignment/Aligned_SCGs.faa")
 	conda:
 		"../envs/gtotree.yaml"
 	threads: 8
@@ -17,10 +16,11 @@ rule build_alignment:
 	shell:
 		"""
 		out_prefix=$(dirname {output.aln})
-
-		find $(dirname {input[0]}) -type f | grep "fasta\|fna" > {output.tmp_list}
-
 		rm -rf $out_prefix
+
+		for i in {input} ; do
+            echo $i
+		done > {output.tmp_list}
 
 		GToTree -N \
 				-f {output.tmp_list} \
@@ -40,6 +40,7 @@ rule build_phylogenomic_tree:
 	threads: 8
 	params:
 		mode = "MFP",
+        msub = "nuclear",
 		bootstrap = 1000
 	log:
 		os.path.join(results_path, "log/phylogenome_tree.log")
@@ -51,7 +52,9 @@ rule build_phylogenomic_tree:
 		
 		iqtree -s {input} \
 				-m {params.mode} \
+                -T {threads} \
 				-bb {params.bootstrap} \
+                -msub {params.msub} \
 				-pre $out_prefix"/iqtree_out" &> {log}
 		"""
 
