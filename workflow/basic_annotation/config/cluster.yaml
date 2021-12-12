@@ -1,0 +1,7 @@
+__default__:
+        etc         : ""
+        jobname     : "{rule}.{wildcards}"
+        output      : "logs/cluster/{rule}.{wildcards}.out"
+        error       : "logs/cluster/{rule}.{wildcards}.err"
+bakta_annotation:
+        etc         : "--mem=70G --time=1-00:00:00"

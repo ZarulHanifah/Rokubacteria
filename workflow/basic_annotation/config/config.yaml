@@ -1,0 +1,12 @@
+taxa:
+    Rokubacteria
+out_path:
+    /fs03/ie79/Rokubacteria/basic_annotation/results
+bakta_db:
+    /fs03/ie79/db/bakta_db/db
+kofamscan_profile:
+    /fs03/ie79/db/kofam_db/profiles
+kofamscan_kolist:
+    /fs03/ie79/db/kofam_db/ko_list
+kofamscan_config:
+    /fs02/ie79/Zarul/Rokubacteria/workflow/basic_annotation/src/config_kofamscan.yaml
