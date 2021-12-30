@@ -23,7 +23,6 @@ genome_cutoff_size = 15000000
 def search_assembly_db(user_email, search_term, max_retrieval="1000"):
         """Download assembly db from  NCBI
         """
-
         Entrez.email = user_email
         handle = Entrez.esearch(db = "assembly", term = search_term, retmax = max_retrieval)
         record = Entrez.read(handle)
@@ -50,14 +49,17 @@ def genome_size_normal(item, max_size = 15000000):
 
     return True if genome_size < max_size else False
 
-def download_summary(summary, outdir):
+def download_summary(summary, outdir, refseqonly = None):
     """ Summary to df format, prior to download
     """
     final_df = []
     for uid, item in enumerate(summary):
         if genome_size_normal(item):
             assembly_entry = []
-            
+
+            acc = item["AssemblyAccession"]
+            assembly_entry.append(acc)
+
             name = item["AssemblyName"]
             name = re.sub(" ", "_", name)
             assembly_entry.append(name)
@@ -70,7 +72,7 @@ def download_summary(summary, outdir):
             final_df.append(assembly_entry)
 
     final_df = pd.DataFrame(final_df)
-    final_df.columns = ["assembly name", "link"]
+    final_df.columns = ["assembly accession", "assembly name", "link"]
 
     # check assembly names are unique
     dupls = final_df["assembly name"].value_counts() > 1
@@ -80,7 +82,9 @@ def download_summary(summary, outdir):
         for idx, ind  in enumerate(final_df.loc[final_df["assembly name"] == dupl, :].index.tolist()):
             suffix = str.lower(chr(65 + idx))
             final_df.loc[ind, "assembly name"]  = final_df.loc[ind, "assembly name"] + suffix
-        
+    
+    if refseqonly:
+        final_df = final_df.loc[final_df["assembly accession"].str.contains("GCF"), :]
     return final_df
 
 def download_assemblies(processed_df, outdir, logger):
@@ -131,7 +135,7 @@ def get_number_of_contigs(item):
     number_of_contigs = int(number_of_contigs)
     return number_of_contigs
 
-def give_summary(summary, outdir):
+def give_summary(summary, outdir, refseqonly = None):
     """ Create assembly metadata
     The metadata are:
     - assembly accession
@@ -175,6 +179,9 @@ def give_summary(summary, outdir):
     final_df["number_of_contigs"] = [get_number_of_contigs(item) for item in summary]
  
     final_df = final_df.loc[final_df["assembly_size"] <= genome_cutoff_size, :]
+
+    if refseqonly:
+        final_df = final_df.loc[final_df["assembly accession"].str.contains("GCF"), :]
     return final_df
 
 def parse_args(args):
@@ -195,6 +202,12 @@ def parse_args(args):
         required = True,
         dest = "outdir",
         help = "Output directory")
+
+    parser.add_argument("--refseq-only",
+        dest = "refseqonly",
+        action = "store_true",
+        help = "Get only refseq assemblies")
+
     if not args:
         parser.print_help(sys.stderr)
         sys.exit()
@@ -209,18 +222,16 @@ def main():
     logging.basicConfig(level=logging.INFO)
 
     logger = logging.getLogger("download genomes")
-        # sh = logging.StreamHandler()
-        # sh.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
-        # logger.addHandler(sh)
-    
     os.makedirs(args.outdir, exist_ok = True)
     
     summary = get_assembly_summary(args.email_address, args.taxa_name, logger)
-    processed_summary = download_summary(summary, args.outdir)
-    download_assemblies(processed_summary, args.outdir, logger)
+
     
-    df = give_summary(summary, args.outdir)
+    df = give_summary(summary, args.outdir, args.refseqonly)
     df.to_csv(os.path.join(args.outdir, "assembly_summary.csv"), sep = "\t", index = False)
+
+    processed_summary = download_summary(summary, args.outdir, args.refseqonly)
+    download_assemblies(processed_summary, args.outdir, logger)
 
 if __name__ == "__main__":
     main()
