@@ -46,7 +46,7 @@ ASM1619326v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016193265.1,54.92163
 ASM1619329v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016193295.1,80.2507836990596,1.72413793103448,1609189,309
 ASM1619902v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016199025.1,81.1598746081505,0.689655172413793,2320382,309
 ASM1620714v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016207145.1,55.8777429467085,1.72413793103448,1618145,464
-AMsedcore2D0bin0415,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_903879005.1,50.1671891327064,4.38871473354232,1475762,682
+AMsedcore2D0,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_903879005.1,50.1671891327064,4.38871473354232,1475762,682
 ASM1620973v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_016209735.1,77.5862068965517,0,1693394,62
 ASM1786153v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_017861535.1,57.1316614420063,5.17241379310345,5438860,1232
 ASM1617690v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016176905.1,76.7241379310345,1.88087774294671,3281195,510
@@ -78,7 +78,7 @@ ASM1619025v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_0
 ASM1620038v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016200385.1,79.7021943573668,0.313479623824451,2214058,411
 ASM1620709v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016207095.1,94.8275862068966,1.72413793103448,2903549,103
 ASM1684440v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016844405.1,86.2068965517241,0.156739811912226,1385946,288
-HainichH43bin1951,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_919902085.1,92.4764890282132,2.35109717868339,1799363,505
+HainichH43,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_919902085.1,92.4764890282132,2.35109717868339,1799363,505
 ASM1619028v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,,,,,GCA_016190285.1,90.2298850574713,0,2237094,213
 ASM191437v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,,,,,GCA_001914375.1,57.7272727272727,0.156739811912226,1641674,736
 ASM304403v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis limnetica,Switzerland: Lake Zug,freshwater lake,Graf2018,GCF_003044035.1,99.8432601880878,0,2554766,40
@@ -273,20 +273,20 @@ ASM178841v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001
 ASM178859v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788415,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788595.1,63.5423197492163,5.17241379310345,3483560,377
 NSPZN2,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,,,,,GCF_905220995.1,95.6896551724138,0.862068965517241,4840206,22
 ASM19681v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,Nitrospira_A defluvii_A,,,,GCF_000196815.1,97.4137931034483,0,4317083,1
-NSND_Contig,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,Nitrospira_A sp900170025,,,,GCF_900170025.1,97.4137931034483,0,4454928,6
-NSJP_Ch1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C japonica,,,,GCF_900169565.1,97.4137931034483,0,4084817,1
+NSNDContig,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,Nitrospira_A sp900170025,,,,GCF_900170025.1,97.4137931034483,0,4454928,6
+NSJPCh1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C japonica,,,,GCF_900169565.1,97.4137931034483,0,4084817,1
 ASM1140551v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C sp011405515,,,,GCF_011405515.1,97.4137931034483,0,4509223,1
 NTLENBS10,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_D,Nitrospira_D lenta,,,,GCF_900403705.1,97.4137931034483,0,3756190,22
 ASM127377v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_E,Nitrospira_E moscoviensis,,,,GCF_001273775.1,97.4137931034483,0.862068965517241,4589485,1
 NiCh1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F inopinata,,,,GCF_001458695.1,97.4137931034483,0,3295117,1
 COMA2,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F nitrificans,,,,GCF_001458775.1,97.4137931034483,0,4117083,36
 COMA1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F nitrosa,,,,GCF_001458735.1,97.4137931034483,0,4422398,15
-Nitrospira-SG-bin1b,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083365,,,,GCF_900078535.1,97.4137931034483,1.72413793103448,4415371,48
-Nitrospira-SG-bin1a,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083405,,,,GCF_900078535.2,97.4137931034483,1.72413793103448,3659024,63
-Nitrospira-HN-bin3,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp900696515,,,,GCF_900078515.1,86.7554858934169,1.88087774294671,2909829,357
+NitroSGbin1b,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083365,,,,GCF_900078535.1,97.4137931034483,1.72413793103448,4415371,48
+NitroSGbin1a,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083405,,,,GCF_900078535.2,97.4137931034483,1.72413793103448,3659024,63
+NitroHNbin3,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp900696515,,,,GCF_900078515.1,86.7554858934169,1.88087774294671,2909829,357
 ASM1218442v1,Nitrospirota,SBBL01,SCUR01,Manganitrophus,Manganitrophus noduliformans,,,,GCF_012184425.1,97.4137931034483,0,5171380,22
 ASM154125v1,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,HCH-1,HCH-1 sp001541255,,,,GCF_001541255.1,96.551724137931,0,3593273,152
-Draft_genome_of_Candidatus_Magnetobacterium_casensis,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium casensis,,,,GCF_000714715.1,94.8275862068966,0,3415676,70
+Cmagneto,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium casensis,,,,GCF_000714715.1,94.8275862068966,0,3415676,70
 ASM1917354v1,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium sp002753685,,,,GCF_019173545.1,81.8965517241379,1.72413793103448,3967582,810
 ASM131208v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio aggregans,,,,GCF_001312085.1,80.1724137931035,0,1966929,56
 ASM151453v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio aggregans,,,,GCF_001514535.1,98.2758620689655,0,1997652,3
@@ -295,15 +295,15 @@ ASM42386v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Therm
 ASM2098v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000020985.1,98.2758620689655,1.72413793103448,2003803,1
 ASM48282v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000482825.1,98.2758620689655,0,2048874,20
 ASM653844v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_006538445.1,98.2758620689655,0,1932479,11
-Nitrospirae_bacterium_Nbg-4,Nitrospirota,Thermodesulfovibrionales,UBA6898,Sulfobium,Sulfobium mesophilum,,,,GCF_900302705.1,74.1379310344828,3.44827586206897,2770094,151
+NitrospiraebacteriumNbg4,Nitrospirota,Thermodesulfovibrionales,UBA6898,Sulfobium,Sulfobium mesophilum,,,,GCF_900302705.1,74.1379310344828,3.44827586206897,2770094,151
 ASM1470123v1,Nitrospirota,Thermodesulfovibrionales,UBA9935,UBA665,,,,,GCF_014701235.1,98.2758620689655,1.72413793103448,2370875,1
 ASM28431v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum,Leptospirillum ferrooxidans,,,,GCF_000284315.1,99.1379310344828,0,2559538,1
 ASM75550v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_000755505.1,94.717868338558,0,2405882,18
-LFTS_HGAP3_1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_900198525.1,94.717868338558,0,2610531,2
+LFTSHGAP31,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_900198525.1,94.717868338558,0,2610531,2
 ASM118640v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_001186405.1,96.2852664576802,0,2709324,1
 ASM128054v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_001280545.1,94.717868338558,0,2475669,74
 ASM200250v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_002002505.1,96.2852664576802,0,2361102,30
 ASM200266v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_002002665.1,94.2476489028213,0,2340676,104
 ASM29923v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000299235.1,96.4420062695925,0,2406157,1
 ASM69597v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000695975.1,96.4420062695925,0,2330585,1
-Leptospirillum_GroupII_C75,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000262365.1,94.717868338558,0,2605306,86
+LspirillC75,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000262365.1,94.717868338558,0,2605306,86
