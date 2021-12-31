@@ -5,6 +5,7 @@ results
 *logs
 .~lock*
 tmp
+kofam_scan
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
