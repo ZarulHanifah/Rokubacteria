@@ -11,17 +11,17 @@ rule bakta_annotation:
 		"../envs/bakta.yaml"	
 	threads: 2
 	shell:
-		"""
-		outdir=$(dirname {output.gff})
-        locustag=$(echo {wildcards.id} | tr '[:lower:]' '[:upper:]')
+        """
+        outdir=$(dirname {output.gff})
+        locustag=$(echo {wildcards.id} | tr '[:lower:]' '[:upper:]' | awk '{{print substr($0,0,12)}}')
 
-		bakta --db {input.db} \
-			--output $outdir \
-			--prefix {wildcards.id} \
-			--locus-tag $locustag \
-			--threads {threads} \
-			{input.fasta} 2> {log}
-		"""
+        bakta --db {input.db} \
+            --output $outdir \
+            --prefix {wildcards.id} \
+            --locus-tag $locustag \
+            --threads {threads} \
+            {input.fasta} 2> {log}
+        """
 
 rule git_kofamscan:
     output:
