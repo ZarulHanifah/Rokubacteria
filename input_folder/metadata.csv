@@ -286,7 +286,7 @@ NitroSGbin1a,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F
 NitroHNbin3,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp900696515,,,,GCF_900078515.1,86.7554858934169,1.88087774294671,2909829,357
 ASM1218442v1,Nitrospirota,SBBL01,SCUR01,Manganitrophus,Manganitrophus noduliformans,,,,GCF_012184425.1,97.4137931034483,0,5171380,22
 ASM154125v1,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,HCH-1,HCH-1 sp001541255,,,,GCF_001541255.1,96.551724137931,0,3593273,152
-Cmagneto,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium casensis,,,,GCF_000714715.1,94.8275862068966,0,3415676,70
+CMagneto,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium casensis,,,,GCF_000714715.1,94.8275862068966,0,3415676,70
 ASM1917354v1,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium sp002753685,,,,GCF_019173545.1,81.8965517241379,1.72413793103448,3967582,810
 ASM131208v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio aggregans,,,,GCF_001312085.1,80.1724137931035,0,1966929,56
 ASM151453v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio aggregans,,,,GCF_001514535.1,98.2758620689655,0,1997652,3
@@ -295,7 +295,7 @@ ASM42386v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Therm
 ASM2098v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000020985.1,98.2758620689655,1.72413793103448,2003803,1
 ASM48282v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000482825.1,98.2758620689655,0,2048874,20
 ASM653844v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_006538445.1,98.2758620689655,0,1932479,11
-NitrospiraebacteriumNbg4,Nitrospirota,Thermodesulfovibrionales,UBA6898,Sulfobium,Sulfobium mesophilum,,,,GCF_900302705.1,74.1379310344828,3.44827586206897,2770094,151
+NitroNbg4,Nitrospirota,Thermodesulfovibrionales,UBA6898,Sulfobium,Sulfobium mesophilum,,,,GCF_900302705.1,74.1379310344828,3.44827586206897,2770094,151
 ASM1470123v1,Nitrospirota,Thermodesulfovibrionales,UBA9935,UBA665,,,,,GCF_014701235.1,98.2758620689655,1.72413793103448,2370875,1
 ASM28431v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum,Leptospirillum ferrooxidans,,,,GCF_000284315.1,99.1379310344828,0,2559538,1
 ASM75550v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_000755505.1,94.717868338558,0,2405882,18
