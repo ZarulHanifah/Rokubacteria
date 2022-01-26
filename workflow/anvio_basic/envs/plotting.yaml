@@ -1,0 +1,8 @@
+name: plotting
+channels:
+        - conda-forge
+dependencies:
+        - matplotlib
+        - seaborn
+        - pandas
+        - numpy

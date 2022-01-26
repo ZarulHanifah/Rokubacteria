@@ -1,0 +1,10 @@
+taxa:
+    Rokubacteria
+out_path:
+   /fs03/ie79/Rokubacteria/anvio_basic/results
+prefix:
+    ROKU
+raw_genome_path:
+    "../../input_folder/genomes/{id}.fasta"
+phylogenome_tree:
+    "src/iqtree_out.tre"

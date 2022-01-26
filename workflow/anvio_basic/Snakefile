@@ -1,0 +1,26 @@
+import sys
+import os
+import re
+import json
+import pandas as pd
+
+# Because anvio env is too big, I am trying this out in my local comp first
+
+if "anvio" not in sys.executable.split('/')[-3]:
+	sys.stderr.write("This is not an anvio env. Exiting.")
+	sys.exit(1)
+
+configfile: "config/config.yaml"
+
+with open("src/genome_list.txt") as handle:
+    ids = handle.readlines()
+
+ids = [re.sub("\n", "", id) for id in ids]
+
+include: "rules/pangenome.smk"
+include: "rules/metabolism.smk"
+
+rule all:
+	input:
+		rules.run_anvio_pangenome.output.pan,
+		rules.summarize_anvio_metabolism.output
