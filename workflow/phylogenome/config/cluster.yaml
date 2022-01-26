@@ -3,3 +3,5 @@ __default__:
         jobname     : "{rule}.{wildcards}"
         output      : "logs/cluster/{rule}.{wildcards}.out"
         error       : "logs/cluster/{rule}.{wildcards}.err"
+build_phylogenomic_tree:
+        etc         : "--mem=300G --time=3-00:00:00"

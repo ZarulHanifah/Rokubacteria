@@ -29,7 +29,6 @@ rule build_alignment:
 		 		-o $out_prefix &> {log}
 		"""
 
-
 rule build_phylogenomic_tree:
 	input:
 		rules.build_alignment.output.aln
