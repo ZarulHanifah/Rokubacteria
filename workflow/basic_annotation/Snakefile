@@ -9,7 +9,6 @@ configfile: "config/config.yaml"
 taxa = config["taxa"]
 
 ids, = glob_wildcards("../../input_folder/genomes/{sample}.fasta")
-# ids = sorted(ids)[:5]
 
 include: "rules/bakta.smk"
 

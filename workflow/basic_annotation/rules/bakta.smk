@@ -1,16 +1,16 @@
 rule bakta_annotation:
-	input:
-		fasta = "../../input_folder/genomes/{id}.fasta",
-		db = config["bakta_db"]
-	output:
-		gff = os.path.join(config["out_path"], "bakta_out/{id}/{id}.gff3"),
-		faa = os.path.join(config["out_path"], "bakta_out/{id}/{id}.faa")
-	log:
-		os.path.join(config["out_path"], "log/bakta_out/{id}.log")
-	conda:
-		"../envs/bakta.yaml"	
-	threads: 2
-	shell:
+    input:
+        fasta = "../../input_folder/genomes/{id}.fasta",
+        db = config["bakta_db"]
+    output:
+        gff = os.path.join(config["out_path"], "bakta_out/{id}/{id}.gff3"),
+        faa = os.path.join(config["out_path"], "bakta_out/{id}/{id}.faa")
+    log:
+        os.path.join(config["out_path"], "log/bakta_out/{id}.log")
+    conda:
+        "../envs/bakta.yaml"    
+    threads: 2
+    shell:
         """
         outdir=$(dirname {output.gff})
         locustag=$(echo {wildcards.id} | tr '[:lower:]' '[:upper:]' | awk '{{print substr($0,0,12)}}')
