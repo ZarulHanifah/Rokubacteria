@@ -4,7 +4,7 @@ results
 .snakemake
 *logs
 .~lock*
-tmp
+tmp*
 kofam_scan
 
 # Byte-compiled / optimized / DLL files
