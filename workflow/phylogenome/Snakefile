@@ -8,7 +8,10 @@ if not os.path.exists("logs/cluster"):
 configfile: "config/config.yaml"
 results_path = config["results_path"]
 
-ids, = glob_wildcards("../../input_folder/genomes/{id}.fasta")
+with open("src/genome_list.txt") as handle:
+    ids = handle.readlines()
+
+ids = [re.sub("\n", "", id) for id in ids]
 
 include: "rules/gtotree.smk"
 

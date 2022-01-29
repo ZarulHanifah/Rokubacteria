@@ -1,8 +1,0 @@
-mash.................................... all good        (location = /projects/ie79/Sandra/Rokubacteria/workflow/pangenome/.snakemake/conda/68eaca81f66ffb24ba65f93969b0482d/bin/mash)
-nucmer.................................. all good        (location = /projects/ie79/Sandra/Rokubacteria/workflow/pangenome/.snakemake/conda/68eaca81f66ffb24ba65f93969b0482d/bin/nucmer)
-checkm.................................. all good        (location = /projects/ie79/Sandra/Rokubacteria/workflow/pangenome/.snakemake/conda/68eaca81f66ffb24ba65f93969b0482d/bin/checkm)
-ANIcalculator........................... !!! ERROR !!!   (location = None)
-prodigal................................ all good        (location = /projects/ie79/Sandra/Rokubacteria/workflow/pangenome/.snakemake/conda/68eaca81f66ffb24ba65f93969b0482d/bin/prodigal)
-centrifuge.............................. !!! ERROR !!!   (location = None)
-nsimscan................................ !!! ERROR !!!   (location = None)
-fastANI................................. all good        (location = /projects/ie79/Sandra/Rokubacteria/workflow/pangenome/.snakemake/conda/68eaca81f66ffb24ba65f93969b0482d/bin/fastANI)

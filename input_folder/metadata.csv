@@ -1,309 +1,187 @@
-,Phylum,Order,Family,Genus,Species,Sampling Location,Habitat,Publication,Accession,Completeness,Contamination,Genome size,# scaffolds
-ASM1427446v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Acidobacterium_A,Acidobacterium_A sp014274465,,,,GCF_014274465.1,97.4137931034483,0,6271114,1
-ASM1464285v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter acidisoli,,,,GCF_014642855.1,100,0,4196269,7
-ASM1464033v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter dinghuensis,,,,GCF_014640335.1,100,0,4535631,9
-ASM1420136v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_A,,,,GCF_014201365.1,98.2758620689655,0,5122604,3
-ASM1420131v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_B,,,,GCF_014201315.1,100,0.344827586206897,4880565,15
-ASM1420137v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_D,,,,GCF_014201375.1,98.2758620689655,0,4827422,15
-ASM1420133v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_E,,,,GCF_014201335.1,100,0,6178831,23
-ASM1427468v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter sp014274685,,,,GCF_014274685.1,100,0,4254614,1
-ASM1420322v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Granulicella_A,Granulicella_A mallensis_A,,,,GCF_014203225.1,100,0.862068965517241,6472662,52
-ASM1844954v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Granulicella_B,,,,,GCF_018449545.1,100,0,6151722,56
-ASM1420327v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Granulicella_C,Granulicella_C aggregans,,,,GCF_014203275.1,100,0,7296843,83
-ASM342862v2,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Palsa-343,Palsa-343 sp003428625,,,,GCF_003428625.2,100,0,5001827,15
-ASM1420145v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Silvibacterium,Silvibacterium bohemicum,,,,GCF_014201455.1,100,0,6452904,21
-ASM1464035v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Silvibacterium,Silvibacterium dinghuense,,,,GCF_014640355.1,99.1379310344828,0,5114915,8
-ASM1408394v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,UBA5172,UBA5172 sp014083945,,,,GCF_014083945.1,100,0,3928701,1
-ASM39826v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000398265.1,66.0658307210031,0,1875558,101
-ASM40259v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000402595.1,95.3448275862069,0.862068965517241,2970774,144
-ASM40263v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000402635.1,74.6865203761756,1.88087774294671,2494861,213
-ASM40440v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000404405.1,61.5203761755486,0,1408933,99
-ASM40530v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000405305.1,63.0877742946709,0,1851771,98
-ASM40544v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000405445.1,53.025078369906,0,1365566,96
-ASM40562v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000405625.1,52.3510971786834,0,1387242,105
-ASM40572v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000405725.1,64.4984326018809,0.862068965517241,1920737,107
-ASM40578v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000405785.1,51.8808777429467,0,1830549,122
-OTU1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000493965.1,93.6206896551724,0.862068965517241,2913626,134
-OTU2,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000493985.1,71.2382445141066,1.88087774294671,2405692,184
-ASM1527777v1,Acidobacteriota,Bryobacterales,Bryobacteraceae,UBA690,,,,,GCF_015277775.1,98.2758620689655,1.72413793103448,9532094,2
-ASM1830480v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,,,,,GCF_018304805.1,97.2413793103448,0,3662232,2
-ASM1830482v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,,,,,GCF_018304825.1,97.5548589341693,0,3659143,2
-ASM1830466v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum,,,,GCF_018304665.1,97.0846394984326,5.17241379310345,3756354,2
-ASM1830468v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum,,,,GCF_018304685.1,96.9278996865204,0,3635588,2
-ASM1830470v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum_A,,,,GCF_018304705.1,95.8620689655172,0,3766674,2
-ASM1830472v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum_A,,,,GCF_018304725.1,97.5862068965517,1.72413793103448,3757470,2
-ASM1830474v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum_A,,,,GCF_018304745.1,97.5862068965517,0,3769663,2
-ASM1830476v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum_A,,,,GCF_018304765.1,97.5862068965517,0,3715176,2
-ASM1830478v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum_A,,,,GCF_018304785.1,97.2413793103448,0,3777155,2
-ASM1737785v1,Acidobacteriota,GCA-2747255,GCA-2747255,,,,,,GCF_017377855.1,98.2758620689655,0,10848561,104
-ASM1659257v1,Acidobacteriota,UM-FILTER-49-7,UM-FILTER-49-7,,,,,,GCF_016592575.1,96.551724137931,0,2317141,1
-ASM1621236v1,Methylomirabilota,,,,,,,,GCA_016212365.1,94.8275862068966,1.72413793103448,1674474,196
-ASM1135906v1,Methylomirabilota,DTKO01,DTKO01,DTKO01,DTKO01 sp011359065,,,,GCA_011359065.1,96.551724137931,0,2299315,64
-ASM1133218v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_011332185.1,67.7115987460815,0,1937792,687
-ASM1618070v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016180705.1,73.8244514106583,0,1651255,302
-ASM1619257v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016192575.1,69.1901776384535,3.44827586206897,1323550,382
-ASM1619326v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016193265.1,54.9216300940439,0,1174966,104
-ASM1619329v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016193295.1,80.2507836990596,1.72413793103448,1609189,309
-ASM1619902v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016199025.1,81.1598746081505,0.689655172413793,2320382,309
-ASM1620714v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016207145.1,55.8777429467085,1.72413793103448,1618145,464
-AMsedcore2D0,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_903879005.1,50.1671891327064,4.38871473354232,1475762,682
-ASM1620973v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_016209735.1,77.5862068965517,0,1693394,62
-ASM1786153v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_017861535.1,57.1316614420063,5.17241379310345,5438860,1232
-ASM1617690v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016176905.1,76.7241379310345,1.88087774294671,3281195,510
-ASM1617977v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016179775.1,65.2037617554859,4.10658307210031,2162990,408
-ASM1618065v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016180655.1,82.4451410658307,0,3868493,347
-ASM1618773v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016187735.1,92.7586206896552,2.58620689655172,3417936,613
-ASM1618890v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016188905.1,92.7115987460815,6.89655172413793,4295476,516
-ASM1619232v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016192325.1,56.8861024033438,0,1980681,470
-ASM1619262v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016192625.1,86.2852664576803,2.03761755485893,3085887,500
-ASM1620793v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016207935.1,96.551724137931,3.60501567398119,3198925,513
-ASM1620864v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016208645.1,96.551724137931,1.72413793103448,3428220,583
-ASM1620972v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016209725.1,67.2413793103448,0,2897718,305
-ASM177124v2,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,2-02-FULL-66-22 sp001771285,,,,GCA_001771245.1,94.8275862068966,3.44827586206897,4424322,218
-ASM177128v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,2-02-FULL-66-22 sp001771285,,,,GCA_001771285.1,93.6781609195402,0,4348215,253
-ASM1105464v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,2-02-FULL-66-22 sp011054645,,,,GCA_011054645.1,96.3949843260188,0,4140923,179
-ASM1945607v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,,,,,GCA_019456075.1,87.9310344827586,0,1781765,102
-ASM2002779v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,,,,,GCA_020027795.1,77.1421107628004,1.01880877742947,1515835,325
-ASM2002783v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,,,,,GCA_020027835.1,60.5799373040752,2.06896551724138,1394001,350
-ASM144349v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp001443495,,,,GCA_001443495.1,100,1.72413793103448,2767502,40
-ASM2002784v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp001443495,,,,GCA_020027845.1,56.8181818181818,1.72413793103448,908340,249
-ASM2002805v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp001443495,,,,GCA_020028055.1,71.1859979101358,0,1053558,249
-ASM164353v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp001643535,,,,GCA_001643535.1,60.8777429467085,0,1253275,127
-ASM1945610v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp001643535,,,,GCA_019456105.1,96.551724137931,5.17241379310345,2396247,136
-ASM1297430v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp012974305,,,,GCA_012974305.1,91.2225705329154,1.72413793103448,2822896,282
-ASM332588v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp012974305,,,,GCA_003325885.1,52.3510971786834,0,764478,113
-ASM1566108v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_015661085.1,93.1034482758621,3.44827586206897,1523819,282
-ASM1566125v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_015661255.1,71.6300940438872,1.88087774294671,1410394,327
-ASM1619025v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016190255.1,82.7586206896552,1.72413793103448,1662904,159
-ASM1620038v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016200385.1,79.7021943573668,0.313479623824451,2214058,411
-ASM1620709v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016207095.1,94.8275862068966,1.72413793103448,2903549,103
-ASM1684440v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016844405.1,86.2068965517241,0.156739811912226,1385946,288
-HainichH43,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_919902085.1,92.4764890282132,2.35109717868339,1799363,505
-ASM1619028v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,,,,,GCA_016190285.1,90.2298850574713,0,2237094,213
-ASM191437v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,,,,,GCA_001914375.1,57.7272727272727,0.156739811912226,1641674,736
-ASM304403v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis limnetica,Switzerland: Lake Zug,freshwater lake,Graf2018,GCF_003044035.1,99.8432601880878,0,2554766,40
-ASM902620v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera,,,,GCA_009026205.1,100,0,2811209,45
-ASM9116v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera,Netherlands: Twentekanaal,culture enrichment from ditch sediment,Ettwig2010,GCA_000091165.1,100,0,2752854,1
-ASM1991228v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera_A,,,,GCA_019912285.1,98.2758620689655,0,3049103,104
-ASM263238v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera_A,,,,GCA_002632385.1,98.2758620689655,0,3077510,62
-DAMOMELA,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera_A,,,,GCA_902196205.1,98.2758620689655,0,3048664,90
-ASM1991242v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp002634395,,,,GCA_019912425.1,98.2758620689655,0,2648518,167
-ASM263439v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp002634395,,,,GCA_002634395.1,98.2758620689655,1.72413793103448,2971147,164
-ASM1202687v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp003104975,,,,GCA_012026875.1,88.5057471264368,0.156739811912226,2870147,249
-ASM310497v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp003104975,,,,GCA_003104975.1,98.2758620689655,0,3001605,19
-ASM310530v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp003105305,,,,GCA_003105305.1,75.0156739811912,0,2115289,274
-ASM1617786v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Lower Lake",groundwater,He2021,GCA_016177865.1,74.4514106583072,0.156739811912226,2204572,435
-ASM1618856v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Modesto",groundwater,He2021,GCA_016188565.1,60,3.76175548589342,3026655,549
-ASM1618862v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Modesto",groundwater,He2021,GCA_016188625.1,74.9216300940439,0.689655172413793,2604643,344
-ASM1619010v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Modesto",groundwater,He2021,GCA_016190105.1,77.2727272727273,2.41379310344828,1618811,395
-ASM1619624v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Calistoga",groundwater,He2021,GCA_016196245.1,73.2758620689655,4.13793103448276,4738864,245
-ASM1619873v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Modesto",groundwater,He2021,GCA_016198735.1,70.6896551724138,0,3575444,358
-ASM322025v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220255.1,84.012539184953,9.31034482758621,5183372,946
-ASM1620638v1,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: California, Modesto",groundwater,He2021,GCA_016206385.1,70.2664576802508,1.72413793103448,2127186,411
-ASM1620938v1,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: California, Modesto",groundwater,He2021,GCA_016209385.1,84.6394984326019,2.41379310344828,4568721,310
-ASM1620942v1,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: California, Modesto",groundwater,He2021,GCA_016209425.1,86.4420062695925,0.689655172413793,4447728,449
-ASM1620948v1,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: California, Modesto",groundwater,He2021,GCA_016209485.1,60.7523510971787,0.689655172413793,2228499,604
-g2747842442,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: Colorado, Oasis Valley 2",groundwater,Becraft2017,2747842442,50.8620689655172,0.156739811912226,2861370,298
-ASM1617996v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Modesto",groundwater,He2021,GCA_016179965.1,89.0282131661442,1.03448275862069,2992664,166
-ASM1618801v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Modesto",groundwater,He2021,GCA_016188015.1,75.1567398119122,0,2585013,413
-ASM1619304v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Modesto",groundwater,He2021,GCA_016193045.1,86.2068965517241,0.689655172413793,3858217,181
-ASM1620164v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Calistoga",groundwater,He2021,GCA_016201645.1,87.0689655172414,2.41379310344828,1703163,235
-ASM144338v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,CSP1-6 sp001443385,"USA: Colorado, Rifle",groundwater,Hug2016,GCA_001443385.1,86.2068965517241,0.689655172413793,2876791,158
-ASM178853v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,CSP1-6 sp001443385,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788535.1,73.9811912225705,8.62068965517241,2808976,756
-ASM179024v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,CSP1-6 sp001443385,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790245.1,58.2967607105538,2.88401253918495,2575213,1013
-ASM179028v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,CSP1-6 sp001443385,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790285.1,92.7899686520376,2.41379310344828,3093383,211
-ANG148,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_148,91.0658307210031,4.29467084639499,4537357,671
-ANG66,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Sagehorn",Garry oak,Sharrar2020,Rokubacteria_ANG_66,81.0344827586207,0.846394984326019,4260344,389
-ANG79,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_79,72.5705329153605,1.55172413793103,4169002,494
-ASM1617673v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016176735.1,68.8087774294671,0,3045508,711
-ASM1617754v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016177545.1,61.7241379310345,0,2517173,524
-ASM1617987v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016179875.1,62.0689655172414,0.689655172413793,3334348,288
-ASM1618797v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016187975.1,89.8119122257053,0.689655172413793,4179931,452
-ASM1620008v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Calistoga",groundwater,He2021,GCA_016200085.1,91.3793103448276,0.689655172413793,3566302,57
-ASM1620160v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Calistoga",groundwater,He2021,GCA_016201605.1,70.6112852664577,3.44827586206897,3066707,613
-ASM1620622v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016206225.1,70.3761755485894,0.846394984326019,2548149,604
-ASM1620940v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016209405.1,61.128526645768,0.689655172413793,2637269,556
-ASM1620963v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016209635.1,87.0689655172414,0.689655172413793,4159852,270
-ERMGT600,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: Colorado, East River",floodplain soil,Carnevali2021,ERMGT600_2_Rokubacteria_70_7_curated,77.8683385579937,1.72413793103448,2407735,554
-ERMGT746,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: Colorado, East River",floodplain soil,Carnevali2021,ERMGT746_2_Rokubacteria_69_6_curated,71.8652037617555,6.20689655172414,1933115,442
-JGI20170821a,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"Tanzania: Mahale, Lake Tanganyika",freshwater lake,Tran2021,GCA_016875855.1,82.7586206896552,9.31034482758621,4800226,299
-JGI20170821b,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"Tanzania: Mahale, Lake Tanganyika",freshwater lake,Tran2021,GCA_016866775.1,93.1034482758621,0.689655172413793,5133623,159
-ASM191453v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp001914535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001914535.1,74.2006269592476,0,2801595,146
-ASM191488v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp001914535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001914885.1,68.9655172413793,0.689655172413793,2885594,155
-ASM322051v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp001914535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220515.1,94.5141065830721,0.689655172413793,4274359,356
-ANG266,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_266,94.8275862068966,7.74294670846395,4976551,157
-ASM191752v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001917525.1,68.025078369906,0,1688230,380
-ASM191801v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001918015.1,78.6833855799373,0.689655172413793,2917289,356
-ASM191848v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001918485.1,72.6489028213166,3.44827586206897,2718131,362
-ASM191901v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001919015.1,74.1379310344828,1.72413793103448,2102773,328
-ASM191976v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001919765.1,66.6771159874608,0,3309093,177
-ASM192049v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001920495.1,77.0532915360502,1.72413793103448,2604617,371
-ASM322031v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220315.1,94.8275862068966,0.689655172413793,4264681,301
-ANG124,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220675,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_124,92.9467084639498,4.13793103448276,3766915,241
-ASM322067v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220675,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220675.1,93.1034482758621,0.689655172413793,4078233,437
-ASM322036v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003221695,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220365.1,87.6175548589342,2.02194357366771,4209685,172
-ASM322150v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003221695,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221505.1,91.0658307210031,6.89655172413793,4628687,316
-ASM322169v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003221695,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221695.1,94.8275862068966,0.689655172413793,4597114,109
-ASM191753v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-4-69-5,40CM-4-69-5 sp001917535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001917535.1,86.2068965517241,0.689655172413793,3675878,127
-ASM191800v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-4-69-5,40CM-4-69-5 sp001917535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001918005.1,84.1379310344828,0.689655172413793,4163701,189
-ASM322060v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220605.1,86.2068965517241,6.55172413793104,6668500,433
-ERMLT760,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,,"USA: Colorado, East River",floodplain soil,Carnevali2021,ERMLT760_16_10D_Rokubacteria_69_16_curated,82.7586206896552,0.658307210031348,2646355,336
-ASM191758v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp001917585,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001917585.1,54.1379310344828,0,4112477,174
-ANG215,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Rivendell",Madrone tree,Sharrar2020,Rokubacteria_ANG_215,93.1034482758621,0.689655172413793,5081076,286
-ASM191490v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001914905.1,82.6018808777429,0.689655172413793,3626413,201
-ASM191803v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001918035.1,74.9843260188088,8.62068965517241,3836238,278
-ASM191904v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001919045.1,62.3824451410658,0,2322457,183
-ASM191980v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001919805.1,82.7586206896552,0.689655172413793,4110931,239
-ASM192048v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001920485.1,65.5956112852665,0,2801901,186
-ASM322061v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220615.1,94.8275862068966,0.689655172413793,5864324,233
-ASM322065v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220655.1,96.551724137931,7.89968652037618,7533980,818
-ASM322149v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221495.1,91.2225705329154,2.41379310344828,5420270,510
-ANG128,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220225,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_128,86.2068965517241,0.846394984326019,5465874,88
-ASM322022v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220225,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220225.1,93.1034482758621,0.689655172413793,6031064,167
-ASM322041v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220225,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220415.1,88.871473354232,0.689655172413793,6028529,590
-ANG129,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220335,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_129,75.0783699059561,0,5359071,371
-ANG130,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220335,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_130,80.9561128526646,2.9153605015674,5491175,876
-ANG338,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220335,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_338,86.6771159874608,4.29467084639499,3847566,784
-ASM322033v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220335,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220335.1,92.3197492163009,1.53605015673981,5517468,743
-ASM322171v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220335,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221715.1,86.9592476489028,3.76175548589342,5370231,1065
-ANG89,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220475,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_89,90.5172413793104,1.00313479623824,5214294,174
-ANG90,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220475,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_90,85.5276907001045,5.86206896551724,5099718,370
-ASM322047v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220475,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220475.1,94.2006269592477,0.689655172413793,4815485,329
-ASM322072v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220475,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220725.1,90.0470219435737,1.72413793103448,4420690,494
-ANG537,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_537,81.0344827586207,0.689655172413793,3180168,100
-ASM1617992v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,,"USA: California, Modesto",groundwater,He2021,GCA_016179925.1,72.4137931034483,1.20689655172414,3573934,223
-ANG214,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_214,94.8275862068966,0.689655172413793,4434022,174
-ANG228,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_228,82.2884012539185,4.13793103448276,3883548,421
-ANG267,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_267,68.4169278996865,0.689655172413793,3063846,454
-ASM322027v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220275.1,85.8934169278997,4.45141065830721,3959606,383
-ASM322059v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220595.1,94.8275862068966,4.45141065830721,4062528,380
-ANG160,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_160,93.1034482758621,1.37931034482759,5616525,300
-ANG195,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,,"USA: California, Sagehorn",Garry oak,Sharrar2020,Rokubacteria_ANG_195,92.2413793103448,2.5705329153605,6446433,404
-ASM322043v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003220435,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220435.1,92.5287356321839,0.689655172413793,5436074,147
-ASM322049v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003220495,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220495.1,94.8275862068966,0.689655172413793,5984922,159
-ASM322053v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003220535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220535.1,86.2068965517241,0.689655172413793,7182089,162
-ANG108,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003220685,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_108,94.8275862068966,4.13793103448276,6421342,86
-ASM322068v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003220685,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220685.1,79.4670846394984,2.06896551724138,6086430,137
-ANG116,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_116,94.8275862068966,0.689655172413793,5493338,185
-ASM322052v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220525.1,94.8275862068966,2.41379310344828,5593105,174
-ASM322151v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221515.1,94.8275862068966,0.689655172413793,5099739,191
-ASM322157v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221575.1,73.3542319749216,5,4765322,783
-ASM322167v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221675.1,94.8275862068966,0.689655172413793,5441731,291
-ANG166,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221595,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_166,83.0721003134796,5.23510971786834,4453054,345
-ANG99,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_99,76.6144200626959,0.689655172413793,3973953,470
-ASM322159v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221595.1,91.3009404388715,2.41379310344828,4342931,818
-ASM322057v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220575.1,82.1316614420063,7.72727272727273,6382526,496
-ASM322161v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221615.1,87.9310344827586,3.10344827586207,7240211,596
-ANG82,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221635,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_82,92.2413793103448,0.689655172413793,5432692,174
-ASM322163v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221635,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221635.1,85.423197492163,1.55172413793103,5170140,335
-ANG147,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221655,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_147,81.0344827586207,2.41379310344828,4068528,440
-ASM322165v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221655,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221655.1,86.2068965517241,1.86520376175549,4480105,557
-ANG137,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_137,94.8275862068966,3.10344827586207,5691079,469
-ANG144,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_144,91.3793103448276,1.15987460815047,5642298,331
-ANG145,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_145,92.9467084639498,7.02194357366771,6570613,716
-ANG146,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_146,85.3448275862069,3.60501567398119,4279773,214
-ANG159,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_159,94.8275862068966,2.41379310344828,4558128,124
-ANG167,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_167,78.6833855799373,1.86520376175549,3394824,664
-ANG177,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_177,93.1034482758621,4.13793103448276,3766918,642
-ANG202,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",Garry oak,Sharrar2020,Rokubacteria_ANG_202,84.3260188087774,0,4584964,746
-ANG330,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_330,93.1034482758621,5,5973161,345
-ANG331,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Madrone tree,Sharrar2020,Rokubacteria_ANG_331,96.551724137931,5.07836990595611,5176098,514
-ANG337,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_337,86.2068965517241,2.5705329153605,4119862,714
-ANG430,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_430,89.6551724137931,5.86206896551724,5546472,385
-ANG55,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_55,94.8275862068966,0.689655172413793,5626865,118
-ANG67,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_67,93.1034482758621,3.22884012539185,5410219,207
-ANG68,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_68,94.5141065830721,4.13793103448276,5361805,411
-ANG83,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_83,96.551724137931,2.41379310344828,5787586,267
-ASM1566090v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: Colorado, East River",hyporheic zone sediment,WolfeColoradoStateUniversity,GCA_015660905.1,63.7878787878788,5.51724137931035,1816706,481
-ASM1617916v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Modesto",groundwater,He2021,GCA_016179165.1,73.9028213166144,1.70846394984326,3020075,476
-ASM2002927v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: Washington State, Colombia River",hyporheic zone sediment,Rodriguez-Ramos2021,GCA_020029275.1,57.6802507836991,1.72413793103448,2351967,554
-ASM2002951v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: Washington State, Colombia River",hyporheic zone sediment,Rodriguez-Ramos2021,GCA_020029515.1,60.3605015673981,5.17241379310345,2782113,623
-ASM2002952v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: Washington State, Colombia River",hyporheic zone sediment,Rodriguez-Ramos2021,GCA_020029525.1,59.4043887147335,1.72413793103448,2609177,613
-ASM322071v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220715.1,65.5329153605016,2.5705329153605,3474557,1031
-ASM322073v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220735.1,61.833855799373,6.72413793103448,5037414,1256
-ERMLT730,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: Colorado, East River",floodplain soil,Carnevali2021,ERMLT730_16_1Da_Rokubacteria_71_9_curated,61.2330198537095,1.55172413793103,2012160,795
-ANG103,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_103,92.7899686520376,2.41379310344828,5879323,407
-ANG117,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_117,82.6018808777429,2.41379310344828,3843248,648
-ANG353,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_353,86.0188087774295,2.88401253918495,4948453,620
-ANG69,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_69,91.2225705329154,7.35109717868339,5047970,630
-ASM322034v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220345.1,91.3793103448276,0.689655172413793,5625833,429
-ASM322038v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220385.1,88.7931034482759,2.41379310344828,5414504,512
-ASM322147v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221475.1,92.9467084639498,2.41379310344828,5146504,576
-ANG176,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR44,,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_176,94.8275862068966,2.41379310344828,4342722,164
-ASM322042v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR44,,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220425.1,87.6436781609195,5.6269592476489,4530961,514
-ANG71,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR44,AR44 sp003221455,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_71,75.7836990595611,7.93103448275862,2985486,691
-ASM322145v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR44,AR44 sp003221455,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221455.1,93.1034482758621,0.689655172413793,4414056,336
-ASM322155v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR44,AR44 sp003221455,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221555.1,67.3197492163009,0.156739811912226,3454237,1120
-ASM1688045v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR5,,"USA: Tennessee, Oak Ridge, East Fork Poplar Creek",soil sediment,Kim2020,GCA_016880455.1,68.9655172413793,5.78369905956113,4673507,771
-ASM381848v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR5,,USA: Prarie Pothole Region,wetland sediment,Martins2018,GCA_003818485.1,77.2727272727273,3.1974921630094,4391907,1370
-ASM322026v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR5,AR5 sp003220265,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220265.1,86.2068965517241,0.344827586206897,6013711,200
-ASM588789v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR5,AR5 sp005887895,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_005887895.1,85.5172413793104,0.689655172413793,5541258,352
-ASM1617842v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,,"USA: California, Lower Lake",groundwater,He2021,GCA_016178425.1,91.3793103448276,3.22884012539185,3215273,396
-ASM1617917v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,,"USA: California, Modesto",groundwater,He2021,GCA_016179175.1,50,1.72413793103448,3953001,201
-ASM1618412v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,,"USA: California, Modesto",groundwater,He2021,GCA_016184125.1,89.4984326018809,0.689655172413793,4085520,121
-ASM1618436v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,,"USA: California, Modesto",groundwater,He2021,GCA_016184365.1,81.0344827586207,0.689655172413793,5580889,146
-ASM322019v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,AR8 sp003220195,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220195.1,84.3260188087774,0.156739811912226,5291522,598
-ASM1620157v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR9,,"USA: California, Calistoga",groundwater,He2021,GCA_016201575.1,81.4263322884013,0.689655172413793,2566773,471
-ASM322143v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR9,AR9 sp003221435,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221435.1,81.7868338557994,0.344827586206897,3427240,351
-ASM1620633v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSHD01,,"USA: California, Modesto",groundwater,He2021,GCA_016206335.1,57.742946708464,0.156739811912226,2011668,435
-ASM1620936v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSHD01,,"USA: California, Modesto",groundwater,He2021,GCA_016209365.1,60.9665621734587,1.00313479623824,1889386,454
-ERMLT366,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSHD01,,"USA: Colorado, East River",floodplain soil,Carnevali2021,ERMLT366_2_Rokubacteria_69_8_curated,53.9707419017764,0,1922952,495
-ASM1105476v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSHD01,DSHD01 sp011058515,"South Atlantic Ocean, Southern Mid-Atlantic Ridge",hydrothermal sediment,Zhou2020,GCA_011054765.1,70.6896551724138,0.689655172413793,3600831,181
-ASM1105851v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSHD01,DSHD01 sp011058515,"South Atlantic Ocean, Southern Mid-Atlantic Ridge",hydrothermal sediment,Zhou2020,GCA_011058515.1,84.4827586206896,0.689655172413793,3917037,17
-ASM1133141v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSRV01,DSRV01 sp011331415,"South Atlantic Ocean, Southern Mid-Atlantic Ridge",hydrothermal sediment,Zhou2020,GCA_011331415.1,86.9905956112853,0.689655172413793,4301875,119
-ASM178847v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001788495,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788475.1,75.8620689655172,0.689655172413793,3622992,301
-ASM178849v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001788495,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788495.1,89.6551724137931,0.689655172413793,4052341,189
-ASM179027v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001788495,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790275.1,86.9122257053292,1.19122257053292,4357638,418
-ASM179034v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001788495,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790345.1,88.2131661442006,0.846394984326019,4042889,215
-ASM178844v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790205,"USA: Colorado, Rifle",sediment,Anantharaman2016,GCA_001788445.1,60,0,3761642,334
-ASM179020v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790205,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790205.1,66.7398119122257,0.689655172413793,3544113,281
-ASM349942v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790205,-,groundwater,Parks2018,GCA_003499425.1,86.3897596656217,0.156739811912226,4506982,300
-ASM1620629v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790315,"USA: California, Modesto",groundwater,He2021,GCA_016206295.1,72.4137931034483,3.10344827586207,3437746,193
-ASM179031v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790315,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790315.1,60.3448275862069,1.72413793103448,2389371,204
-ASM179033v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790315,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790335.1,84.4827586206896,4.13793103448276,3444169,327
-ASM1617755v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,,"USA: California, Modesto",groundwater,He2021,GCA_016177555.1,69.8275862068966,0,2741524,536
-ASM1618800v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,,"USA: California, Modesto",groundwater,He2021,GCA_016188005.1,89.9686520376175,0.689655172413793,5369290,140
-ASM1619248v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,,"USA: California, Modesto",groundwater,He2021,GCA_016192485.1,88.7408568443051,2.41379310344828,5200735,571
-ASM345299v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,,-,groundwater,Parks2018,GCA_003452995.1,72.9362591431557,1.3166144200627,5691809,982
-ASM1618430v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: California, Modesto",groundwater,He2021,GCA_016184305.1,82.7586206896552,0,3215253,239
-ASM178839v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788395.1,89.6551724137931,0.689655172413793,4655090,243
-ASM178842v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788425.1,78.448275862069,1.72413793103448,3323756,240
-ASM179023v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790235.1,76.8025078369906,0.689655172413793,2941128,266
-ASM178841v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788415,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788415.1,79.3103448275862,0.689655172413793,4703206,309
-ASM178859v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788415,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788595.1,63.5423197492163,5.17241379310345,3483560,377
-NSPZN2,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,,,,,GCF_905220995.1,95.6896551724138,0.862068965517241,4840206,22
-ASM19681v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,Nitrospira_A defluvii_A,,,,GCF_000196815.1,97.4137931034483,0,4317083,1
-NSNDContig,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,Nitrospira_A sp900170025,,,,GCF_900170025.1,97.4137931034483,0,4454928,6
-NSJPCh1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C japonica,,,,GCF_900169565.1,97.4137931034483,0,4084817,1
-ASM1140551v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C sp011405515,,,,GCF_011405515.1,97.4137931034483,0,4509223,1
-NTLENBS10,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_D,Nitrospira_D lenta,,,,GCF_900403705.1,97.4137931034483,0,3756190,22
-ASM127377v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_E,Nitrospira_E moscoviensis,,,,GCF_001273775.1,97.4137931034483,0.862068965517241,4589485,1
-NiCh1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F inopinata,,,,GCF_001458695.1,97.4137931034483,0,3295117,1
-COMA2,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F nitrificans,,,,GCF_001458775.1,97.4137931034483,0,4117083,36
-COMA1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F nitrosa,,,,GCF_001458735.1,97.4137931034483,0,4422398,15
-NitroSGbin1b,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083365,,,,GCF_900078535.1,97.4137931034483,1.72413793103448,4415371,48
-NitroSGbin1a,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083405,,,,GCF_900078535.2,97.4137931034483,1.72413793103448,3659024,63
-NitroHNbin3,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp900696515,,,,GCF_900078515.1,86.7554858934169,1.88087774294671,2909829,357
-ASM1218442v1,Nitrospirota,SBBL01,SCUR01,Manganitrophus,Manganitrophus noduliformans,,,,GCF_012184425.1,97.4137931034483,0,5171380,22
-ASM154125v1,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,HCH-1,HCH-1 sp001541255,,,,GCF_001541255.1,96.551724137931,0,3593273,152
-CMagneto,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium casensis,,,,GCF_000714715.1,94.8275862068966,0,3415676,70
-ASM1917354v1,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium sp002753685,,,,GCF_019173545.1,81.8965517241379,1.72413793103448,3967582,810
-ASM131208v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio aggregans,,,,GCF_001312085.1,80.1724137931035,0,1966929,56
-ASM151453v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio aggregans,,,,GCF_001514535.1,98.2758620689655,0,1997652,3
-ASM170791v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio sp001707915,,,,GCF_001707915.1,96.3949843260188,0,1915222,116
-ASM42386v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio thiophilus,,,,GCF_000423865.1,97.4137931034483,0,1871474,18
-ASM2098v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000020985.1,98.2758620689655,1.72413793103448,2003803,1
-ASM48282v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000482825.1,98.2758620689655,0,2048874,20
-ASM653844v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_006538445.1,98.2758620689655,0,1932479,11
-NitroNbg4,Nitrospirota,Thermodesulfovibrionales,UBA6898,Sulfobium,Sulfobium mesophilum,,,,GCF_900302705.1,74.1379310344828,3.44827586206897,2770094,151
-ASM1470123v1,Nitrospirota,Thermodesulfovibrionales,UBA9935,UBA665,,,,,GCF_014701235.1,98.2758620689655,1.72413793103448,2370875,1
-ASM28431v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum,Leptospirillum ferrooxidans,,,,GCF_000284315.1,99.1379310344828,0,2559538,1
-ASM75550v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_000755505.1,94.717868338558,0,2405882,18
-LFTSHGAP31,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_900198525.1,94.717868338558,0,2610531,2
-ASM118640v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_001186405.1,96.2852664576802,0,2709324,1
-ASM128054v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_001280545.1,94.717868338558,0,2475669,74
-ASM200250v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_002002505.1,96.2852664576802,0,2361102,30
-ASM200266v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_002002665.1,94.2476489028213,0,2340676,104
-ASM29923v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000299235.1,96.4420062695925,0,2406157,1
-ASM69597v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000695975.1,96.4420062695925,0,2330585,1
-LspirillC75,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000262365.1,94.717868338558,0,2605306,86
+,Phylum,Order,Family,Genus,Species,Sampling Location,Habitat,Publication,Accession,checkm_completeness,checkm_contamination,bact71_completeness,bact71_contamination,Genome size,# scaffolds
+ASM1427446v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Acidobacterium_A,Acidobacterium_A sp014274465,,,,GCF_014274465.1,97.41,0.00,97.30,1.35,6271114,1
+ASM1464285v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter acidisoli,,,,GCF_014642855.1,100.00,0.00,97.30,0.00,4196269,7
+ASM1464033v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter dinghuensis,,,,GCF_014640335.1,100.00,0.00,97.30,0.00,4535631,9
+ASM1420136v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_A,,,,GCF_014201365.1,98.28,0.00,98.65,0.00,5122604,3
+ASM1420131v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_B,,,,GCF_014201315.1,100.00,0.34,98.65,1.35,4880565,15
+ASM1420137v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_D,,,,GCF_014201375.1,98.28,0.00,98.65,0.00,4827422,15
+ASM1420133v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter lichenicola_E,,,,GCF_014201335.1,100.00,0.00,98.65,1.35,6178831,23
+ASM1427468v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Edaphobacter,Edaphobacter sp014274685,,,,GCF_014274685.1,100.00,0.00,98.65,0.00,4254614,1
+ASM1420322v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Granulicella_A,Granulicella_A mallensis_A,,,,GCF_014203225.1,100.00,0.86,98.65,1.35,6472662,52
+ASM1844954v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Granulicella_B,,,,,GCF_018449545.1,100.00,0.00,98.65,1.35,6151722,56
+ASM342862v2,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Palsa-343,Palsa-343 sp003428625,,,,GCF_003428625.2,100.00,0.00,98.65,1.35,5001827,15
+ASM1420145v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Silvibacterium,Silvibacterium bohemicum,,,,GCF_014201455.1,100.00,0.00,98.65,2.70,6452904,21
+ASM1464035v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,Silvibacterium,Silvibacterium dinghuense,,,,GCF_014640355.1,99.14,0.00,98.65,1.35,5114915,8
+ASM1408394v1,Acidobacteriota,Acidobacteriales,Acidobacteriaceae,UBA5172,UBA5172 sp014083945,,,,GCF_014083945.1,100.00,0.00,98.65,1.35,3928701,1
+ASM40259v1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000402595.1,95.34,0.86,86.49,1.35,2970774,144
+OTU1,Acidobacteriota,Aminicenantales,Aminicenantaceae,Aminicenans,Aminicenans sakinawicola,,,,GCF_000493965.1,93.62,0.86,86.49,0.00,2913626,134
+ASM1830480v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,,,,,GCF_018304805.1,97.24,0.00,81.08,4.05,3662232,2
+ASM1830482v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,,,,,GCF_018304825.1,97.55,0.00,81.08,2.70,3659143,2
+ASM1830468v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum,,,,GCF_018304685.1,96.93,0.00,81.08,2.70,3635588,2
+ASM1830470v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum_A,,,,GCF_018304705.1,95.86,0.00,83.78,4.05,3766674,2
+ASM1830476v1,Acidobacteriota,Chloracidobacteriales,Chloracidobacteriaceae,Chloracidobacterium,Chloracidobacterium thermophilum_A,,,,GCF_018304765.1,97.59,0.00,85.14,4.05,3715176,2
+ASM1659257v1,Acidobacteriota,UM-FILTER-49-7,UM-FILTER-49-7,,,,,,GCF_016592575.1,96.55,0.00,93.24,0.00,2317141,1
+ASM1621236v1,Methylomirabilota,,,,,,,,GCA_016212365.1,94.83,1.72,94.59,1.35,1674474,196
+ASM1135906v1,Methylomirabilota,DTKO01,DTKO01,DTKO01,DTKO01 sp011359065,,,,GCA_011359065.1,96.55,0.00,95.95,0.00,2299315,64
+ASM1618070v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016180705.1,73.82,0.00,77.03,0.00,1651255,302
+ASM1619329v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016193295.1,80.25,1.72,79.73,1.35,1609189,309
+ASM1619902v1,Methylomirabilota,Methylomirabilales,,,,,,,GCA_016199025.1,81.16,0.69,78.38,1.35,2320382,309
+ASM1620973v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,,,,,,GCA_016209735.1,77.59,0.00,79.73,0.00,1693394,62
+ASM1617690v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016176905.1,76.72,1.88,82.43,1.35,3281195,510
+ASM1618065v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016180655.1,82.45,0.00,90.54,1.35,3868493,347
+ASM1618773v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016187735.1,92.76,2.59,91.89,2.70,3417936,613
+ASM1619262v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016192625.1,86.29,2.04,82.43,1.35,3085887,500
+ASM1620793v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016207935.1,96.55,3.61,91.89,1.35,3198925,513
+ASM1620864v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,,,,,GCA_016208645.1,96.55,1.72,97.30,1.35,3428220,583
+ASM177124v2,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,2-02-FULL-66-22 sp001771285,,,,GCA_001771245.1,94.83,3.45,97.30,1.35,4424322,218
+ASM177128v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,2-02-FULL-66-22 sp001771285,,,,GCA_001771285.1,93.68,0.00,94.59,0.00,4348215,253
+ASM1105464v1,Methylomirabilota,Methylomirabilales,2-02-FULL-66-22,2-02-FULL-66-22,2-02-FULL-66-22 sp011054645,,,,GCA_011054645.1,96.39,0.00,93.24,2.70,4140923,179
+ASM1945607v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,,,,,GCA_019456075.1,87.93,0.00,89.19,2.70,1781765,102
+ASM2002779v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,,,,,GCA_020027795.1,77.14,1.02,82.43,0.00,1515835,325
+ASM144349v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp001443495,,,,GCA_001443495.1,100.00,1.72,98.65,0.00,2767502,40
+ASM1297430v1,Methylomirabilota,Methylomirabilales,CSP1-5,CSP1-5,CSP1-5 sp012974305,,,,GCA_012974305.1,91.22,1.72,90.54,1.35,2822896,282
+ASM1566108v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_015661085.1,93.10,3.45,83.78,0.00,1523819,282
+ASM1619025v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016190255.1,82.76,1.72,79.73,0.00,1662904,159
+ASM1620038v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016200385.1,79.70,0.31,71.62,1.35,2214058,411
+ASM1620709v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016207095.1,94.83,1.72,90.54,0.00,2903549,103
+ASM1684440v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_016844405.1,86.21,0.16,79.73,0.00,1385946,288
+HainichH43,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,,,,,,GCA_919902085.1,92.48,2.35,74.32,0.00,1799363,505
+ASM1619028v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,,,,,GCA_016190285.1,90.23,0.00,87.84,0.00,2237094,213
+ASM304403v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis limnetica,Switzerland: Lake Zug,freshwater lake,Graf2018,GCF_003044035.1,99.84,0.00,94.59,0.00,2554766,40
+ASM902620v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera,,,,GCA_009026205.1,100.00,0.00,95.95,0.00,2811209,45
+ASM9116v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera,Netherlands: Twentekanaal,culture enrichment from ditch sediment,Ettwig2010,GCA_000091165.1,100.00,0.00,95.95,1.35,2752854,1
+ASM1991228v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera_A,,,,GCA_019912285.1,98.28,0.00,95.95,0.00,3049103,104
+ASM263238v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera_A,,,,GCA_002632385.1,98.28,0.00,95.95,0.00,3077510,62
+DAMOMELA,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis oxyfera_A,,,,GCA_902196205.1,98.28,0.00,95.95,0.00,3048664,90
+ASM1991242v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp002634395,,,,GCA_019912425.1,98.28,0.00,93.24,1.35,2648518,167
+ASM263439v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp002634395,,,,GCA_002634395.1,98.28,1.72,90.54,4.05,2971147,164
+ASM1202687v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp003104975,,,,GCA_012026875.1,88.51,0.16,86.49,2.70,2870147,249
+ASM310497v1,Methylomirabilota,Methylomirabilales,Methylomirabilaceae,Methylomirabilis,Methylomirabilis sp003104975,,,,GCA_003104975.1,98.28,0.00,94.59,1.35,3001605,19
+ASM1618862v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Modesto",groundwater,He2021,GCA_016188625.1,74.92,0.69,78.38,1.35,2604643,344
+ASM1619010v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Modesto",groundwater,He2021,GCA_016190105.1,77.27,2.41,78.38,0.00,1618811,395
+ASM1619624v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Calistoga",groundwater,He2021,GCA_016196245.1,73.28,4.14,85.14,1.35,4738864,245
+ASM1619873v1,Methylomirabilota,Rokubacteriales,,,,"USA: California, Modesto",groundwater,He2021,GCA_016198735.1,70.69,0.00,72.97,1.35,3575444,358
+ASM1620638v1,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: California, Modesto",groundwater,He2021,GCA_016206385.1,70.27,1.72,74.32,1.35,2127186,411
+ASM1620938v1,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: California, Modesto",groundwater,He2021,GCA_016209385.1,84.64,2.41,94.59,1.35,4568721,310
+ASM1620942v1,Methylomirabilota,Rokubacteriales,CSP1-6,,,"USA: California, Modesto",groundwater,He2021,GCA_016209425.1,86.44,0.69,90.54,1.35,4447728,449
+ASM1617996v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Modesto",groundwater,He2021,GCA_016179965.1,89.03,1.03,89.19,1.35,2992664,166
+ASM1618801v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Modesto",groundwater,He2021,GCA_016188015.1,75.16,0.00,77.03,0.00,2585013,413
+ASM1619304v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Modesto",groundwater,He2021,GCA_016193045.1,86.21,0.69,91.89,1.35,3858217,181
+ASM1620164v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,,"USA: California, Calistoga",groundwater,He2021,GCA_016201645.1,87.07,2.41,85.14,2.70,1703163,235
+ASM144338v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,CSP1-6 sp001443385,"USA: Colorado, Rifle",groundwater,Hug2016,GCA_001443385.1,86.21,0.69,89.19,1.35,2876791,158
+ASM179028v1,Methylomirabilota,Rokubacteriales,CSP1-6,CSP1-6,CSP1-6 sp001443385,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790285.1,92.79,2.41,89.19,2.70,3093383,211
+ANG148,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_148,91.07,4.29,86.49,4.05,4537357,671
+ANG66,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Sagehorn",Garry oak,Sharrar2020,Rokubacteria_ANG_66,81.03,0.85,87.84,4.05,4260344,389
+ANG79,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_79,72.57,1.55,85.14,2.70,4169002,494
+ASM1618797v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016187975.1,89.81,0.69,87.84,2.70,4179931,452
+ASM1620008v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Calistoga",groundwater,He2021,GCA_016200085.1,91.38,0.69,95.95,1.35,3566302,57
+ASM1620160v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Calistoga",groundwater,He2021,GCA_016201605.1,70.61,3.45,72.97,0.00,3066707,613
+ASM1620622v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016206225.1,70.38,0.85,74.32,2.70,2548149,604
+ASM1620963v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: California, Modesto",groundwater,He2021,GCA_016209635.1,87.07,0.69,85.14,1.35,4159852,270
+ERMGT600,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"USA: Colorado, East River",floodplain soil,Carnevali2021,ERMGT600_2_Rokubacteria_70_7_curated,77.87,1.72,83.78,4.05,2407735,554
+JGI20170821b,Methylomirabilota,Rokubacteriales,GWA2-73-35,,,"Tanzania: Mahale, Lake Tanganyika",freshwater lake,Tran2021,GCA_016866775.1,93.10,0.69,98.65,1.35,5133623,159
+ASM322051v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp001914535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220515.1,94.51,0.69,97.30,2.70,4274359,356
+ASM191801v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001918015.1,78.68,0.69,86.49,1.35,2917289,356
+ASM191901v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001919015.1,74.14,1.72,75.68,0.00,2102773,328
+ASM192049v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001920495.1,77.05,1.72,77.03,0.00,2604617,371
+ASM322031v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,20CM-2-70-11,20CM-2-70-11 sp003220315,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220315.1,94.83,0.69,98.65,4.05,4264681,301
+ASM191753v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-4-69-5,40CM-4-69-5 sp001917535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001917535.1,86.21,0.69,94.59,1.35,3675878,127
+ASM191800v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-4-69-5,40CM-4-69-5 sp001917535,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001918005.1,84.14,0.69,90.54,4.05,4163701,189
+ERMLT760,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,,"USA: Colorado, East River",floodplain soil,Carnevali2021,ERMLT760_16_10D_Rokubacteria_69_16_curated,82.76,0.66,87.84,0.00,2646355,336
+ANG215,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Rivendell",Madrone tree,Sharrar2020,Rokubacteria_ANG_215,93.10,0.69,95.95,2.70,5081076,286
+ASM191490v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Butterfield2016,GCA_001914905.1,82.60,0.69,90.54,0.00,3626413,201
+ASM322061v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220615.1,94.83,0.69,95.95,1.35,5864324,233
+ASM322149v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,40CM-68-15,40CM-68-15 sp003220615,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221495.1,91.22,2.41,91.89,1.35,5420270,510
+ANG128,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220225,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_128,86.21,0.85,91.89,4.05,5465874,88
+ASM322041v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220225,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220415.1,88.87,0.69,77.03,4.05,6028529,590
+ANG129,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220335,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_129,75.08,0.00,81.08,4.05,5359071,371
+ANG89,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220475,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_89,90.52,1.00,95.95,2.70,5214294,174
+ASM322047v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220475,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220475.1,94.20,0.69,95.95,2.70,4815485,329
+ASM322072v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR12,AR12 sp003220475,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220725.1,90.05,1.72,87.84,0.00,4420690,494
+ANG537,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_537,81.03,0.69,93.24,1.35,3180168,100
+ASM1617992v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,,"USA: California, Modesto",groundwater,He2021,GCA_016179925.1,72.41,1.21,82.43,1.35,3573934,223
+ANG214,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_214,94.83,0.69,97.30,1.35,4434022,174
+ASM322027v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220275.1,85.89,4.45,91.89,1.35,3959606,383
+ASM322059v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR19,AR19 sp003220595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220595.1,94.83,4.45,97.30,2.70,4062528,380
+ANG195,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,,"USA: California, Sagehorn",Garry oak,Sharrar2020,Rokubacteria_ANG_195,92.24,2.57,97.30,4.05,6446433,404
+ANG116,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_116,94.83,0.69,97.30,2.70,5493338,185
+ASM322151v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221515.1,94.83,0.69,95.95,2.70,5099739,191
+ASM322167v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221515,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221675.1,94.83,0.69,98.65,2.70,5441731,291
+ANG99,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221595,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_99,76.61,0.69,78.38,2.70,3973953,470
+ANG147,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221655,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_147,81.03,2.41,86.49,1.35,4068528,440
+ASM322165v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR31,AR31 sp003221655,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221655.1,86.21,1.87,93.24,2.70,4480105,557
+ANG137,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_137,94.83,3.10,95.95,4.05,5691079,469
+ANG144,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_144,91.38,1.16,97.30,2.70,5642298,331
+ANG159,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_159,94.83,2.41,95.95,1.35,4558128,124
+ANG167,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_167,78.68,1.87,75.68,4.05,3394824,664
+ANG177,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_177,93.10,4.14,89.19,2.70,3766918,642
+ANG202,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",Garry oak,Sharrar2020,Rokubacteria_ANG_202,84.33,0.00,77.03,0.00,4584964,746
+ANG330,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_330,93.10,5.00,91.89,4.05,5973161,345
+ANG337,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_337,86.21,2.57,91.89,1.35,4119862,714
+ANG55,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Sagehorn",hilly grassland,Sharrar2020,Rokubacteria_ANG_55,94.83,0.69,97.30,2.70,5626865,118
+ANG68,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_68,94.51,4.14,95.95,1.35,5361805,411
+ANG83,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Angelo Rivendell",Douglas fir,Sharrar2020,Rokubacteria_ANG_83,96.55,2.41,93.24,2.70,5787586,267
+ASM1617916v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,,"USA: California, Modesto",groundwater,He2021,GCA_016179165.1,73.90,1.71,81.08,1.35,3020075,476
+ANG103,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_103,92.79,2.41,91.89,2.70,5879323,407
+ANG117,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_117,82.60,2.41,74.32,1.35,3843248,648
+ANG353,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_353,86.02,2.88,77.03,1.35,4948453,620
+ASM322034v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220345.1,91.38,0.69,90.54,2.70,5625833,429
+ASM322038v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220385.1,88.79,2.41,91.89,1.35,5414504,512
+ASM322147v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR37,AR37 sp003220345,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221475.1,92.95,2.41,91.89,1.35,5146504,576
+ANG176,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR44,,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Sharrar2020,Rokubacteria_ANG_176,94.83,2.41,97.30,1.35,4342722,164
+ASM322145v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR44,AR44 sp003221455,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221455.1,93.10,0.69,94.59,2.70,4414056,336
+ASM588789v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR5,AR5 sp005887895,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_005887895.1,85.52,0.69,85.14,1.35,5541258,352
+ASM1617842v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,,"USA: California, Lower Lake",groundwater,He2021,GCA_016178425.1,91.38,3.23,91.89,1.35,3215273,396
+ASM1618412v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,,"USA: California, Modesto",groundwater,He2021,GCA_016184125.1,89.50,0.69,90.54,2.70,4085520,121
+ASM1618436v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,,"USA: California, Modesto",groundwater,He2021,GCA_016184365.1,81.03,0.69,85.14,2.70,5580889,146
+ASM322019v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR8,AR8 sp003220195,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003220195.1,84.33,0.16,86.49,1.35,5291522,598
+ASM1620157v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR9,,"USA: California, Calistoga",groundwater,He2021,GCA_016201575.1,81.43,0.69,74.32,2.70,2566773,471
+ASM322143v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,AR9,AR9 sp003221435,"USA: California, Angelo Coastal Range Reserve",meadow grassland,Crits-Christoph2018,GCA_003221435.1,81.79,0.34,81.08,1.35,3427240,351
+ASM1105476v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSHD01,DSHD01 sp011058515,"South Atlantic Ocean, Southern Mid-Atlantic Ridge",hydrothermal sediment,Zhou2020,GCA_011054765.1,70.69,0.69,82.43,1.35,3600831,181
+ASM1105851v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSHD01,DSHD01 sp011058515,"South Atlantic Ocean, Southern Mid-Atlantic Ridge",hydrothermal sediment,Zhou2020,GCA_011058515.1,84.48,0.69,90.54,1.35,3917037,17
+ASM1133141v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,DSRV01,DSRV01 sp011331415,"South Atlantic Ocean, Southern Mid-Atlantic Ridge",hydrothermal sediment,Zhou2020,GCA_011331415.1,86.99,0.69,94.59,2.70,4301875,119
+ASM178847v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001788495,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788475.1,75.86,0.69,77.03,4.05,3622992,301
+ASM179034v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001788495,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790345.1,88.21,0.85,83.78,4.05,4042889,215
+ASM349942v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790205,-,groundwater,Parks2018,GCA_003499425.1,86.39,0.16,86.49,2.70,4506982,300
+ASM1620629v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790315,"USA: California, Modesto",groundwater,He2021,GCA_016206295.1,72.41,3.10,79.73,2.70,3437746,193
+ASM179033v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,GWA2-73-35,GWA2-73-35 sp001790315,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790335.1,84.48,4.14,85.14,0.00,3444169,327
+ASM1618800v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,,"USA: California, Modesto",groundwater,He2021,GCA_016188005.1,89.97,0.69,93.24,4.05,5369290,140
+ASM1619248v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,,"USA: California, Modesto",groundwater,He2021,GCA_016192485.1,88.74,2.41,93.24,2.70,5200735,571
+ASM1618430v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: California, Modesto",groundwater,He2021,GCA_016184305.1,82.76,0.00,86.49,1.35,3215253,239
+ASM178839v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788395.1,89.66,0.69,91.89,2.70,4655090,243
+ASM178842v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788425.1,78.45,1.72,77.03,1.35,3323756,240
+ASM179023v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788395,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001790235.1,76.80,0.69,77.03,2.70,2941128,266
+ASM178841v1,Methylomirabilota,Rokubacteriales,GWA2-73-35,UBA12499,UBA12499 sp001788415,"USA: Colorado, Rifle",groundwater,Anantharaman2016,GCA_001788415.1,79.31,0.69,87.84,2.70,4703206,309
+NSPZN2,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,,,,,GCF_905220995.1,95.69,0.86,97.30,4.05,4840206,22
+ASM19681v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,Nitrospira_A defluvii_A,,,,GCF_000196815.1,97.41,0.00,98.65,0.00,4317083,1
+NSNDContig,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_A,Nitrospira_A sp900170025,,,,GCF_900170025.1,97.41,0.00,97.30,0.00,4454928,6
+NSJPCh1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C japonica,,,,GCF_900169565.1,97.41,0.00,97.30,4.05,4084817,1
+ASM1140551v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_C,Nitrospira_C sp011405515,,,,GCF_011405515.1,97.41,0.00,97.30,4.05,4509223,1
+NTLENBS10,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_D,Nitrospira_D lenta,,,,GCF_900403705.1,97.41,0.00,97.30,1.35,3756190,22
+ASM127377v1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_E,Nitrospira_E moscoviensis,,,,GCF_001273775.1,97.41,0.86,98.65,1.35,4589485,1
+COMA2,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F nitrificans,,,,GCF_001458775.1,97.41,0.00,97.30,2.70,4117083,36
+COMA1,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F nitrosa,,,,GCF_001458735.1,97.41,0.00,97.30,1.35,4422398,15
+NitroSGbin1b,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083365,,,,GCF_900078535.1,97.41,1.72,94.59,4.05,4415371,48
+NitroSGbin1a,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp002083405,,,,GCF_900078535.2,97.41,1.72,97.30,2.70,3659024,63
+NitroHNbin3,Nitrospirota,Nitrospirales,Nitrospiraceae,Nitrospira_F,Nitrospira_F sp900696515,,,,GCF_900078515.1,86.76,1.88,86.49,0.00,2909829,357
+ASM1218442v1,Nitrospirota,SBBL01,SCUR01,Manganitrophus,Manganitrophus noduliformans,,,,GCF_012184425.1,97.41,0.00,95.95,2.70,5171380,22
+ASM154125v1,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,HCH-1,HCH-1 sp001541255,,,,GCF_001541255.1,96.55,0.00,97.30,1.35,3593273,152
+CMagneto,Nitrospirota,Thermodesulfovibrionales,Magnetobacteriaceae,Magnetobacterium,Magnetobacterium casensis,,,,GCF_000714715.1,94.83,0.00,95.95,4.05,3415676,70
+ASM151453v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio aggregans,,,,GCF_001514535.1,98.28,0.00,95.95,1.35,1997652,3
+ASM170791v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio sp001707915,,,,GCF_001707915.1,96.39,0.00,97.30,4.05,1915222,116
+ASM42386v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio thiophilus,,,,GCF_000423865.1,97.41,0.00,95.95,1.35,1871474,18
+ASM2098v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000020985.1,98.28,1.72,97.30,4.05,2003803,1
+ASM48282v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_000482825.1,98.28,0.00,95.95,0.00,2048874,20
+ASM653844v1,Nitrospirota,Thermodesulfovibrionales,Thermodesulfovibrionaceae,Thermodesulfovibrio,Thermodesulfovibrio yellowstonii,,,,GCF_006538445.1,98.28,0.00,97.30,0.00,1932479,11
+NitroNbg4,Nitrospirota,Thermodesulfovibrionales,UBA6898,Sulfobium,Sulfobium mesophilum,,,,GCF_900302705.1,74.14,3.45,79.73,2.70,2770094,151
+ASM1470123v1,Nitrospirota,Thermodesulfovibrionales,UBA9935,UBA665,,,,,GCF_014701235.1,98.28,1.72,93.24,1.35,2370875,1
+ASM28431v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum,Leptospirillum ferrooxidans,,,,GCF_000284315.1,99.14,0.00,97.30,1.35,2559538,1
+ASM75550v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_000755505.1,94.72,0.00,87.84,0.00,2405882,18
+LFTSHGAP31,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A ferriphilum,,,,GCF_900198525.1,94.72,0.00,87.84,0.00,2610531,2
+ASM118640v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_001186405.1,96.29,0.00,86.49,0.00,2709324,1
+ASM128054v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_001280545.1,94.72,0.00,86.49,0.00,2475669,74
+ASM200250v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_002002505.1,96.29,0.00,85.14,0.00,2361102,30
+ASM200266v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_002002665.1,94.25,0.00,79.73,0.00,2340676,104
+ASM29923v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000299235.1,96.44,0.00,87.84,0.00,2406157,1
+ASM69597v1,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000695975.1,96.44,0.00,87.84,0.00,2330585,1
+LspirillC75,Nitrospirota_A,Leptospirillales,Leptospirillaceae,Leptospirillum_A,Leptospirillum_A rubarum,,,,GCF_000262365.1,94.72,0.00,86.49,0.00,2605306,86

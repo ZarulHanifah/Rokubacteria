@@ -1,7 +1,0 @@
-name:
-  gtdbtk
-channels:
-  - bioconda
-  - conda-forge
-dependencies:
-  - gtdbtk
