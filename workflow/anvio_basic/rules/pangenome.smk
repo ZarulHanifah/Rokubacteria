@@ -58,7 +58,7 @@ rule run_anvio_pangenome:
         os.path.join(config["out_path"], "log/run_anvio_pangenome.log")
     params:
         min_occurence = 2,
-        ani_program = "fastANI",
+        ani_program = "pyANI",
     shell:
         """
         main_name=$(basename $(dirname {output.pan}))
